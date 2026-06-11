@@ -14,5 +14,7 @@
 - L0, L1, and L2 must not enter closed-book examinations.
 - Only L5 may enter an examination.
 - Only L6 may enter cross-course shared templates or patterns.
+- NotebookLM output starts only as L0 or L1.
+- Promotion may not skip any level.
 
 Promotion is explicit, documented, and reversible when new evidence appears.

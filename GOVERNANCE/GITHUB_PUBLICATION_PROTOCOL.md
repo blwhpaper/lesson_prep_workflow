@@ -9,3 +9,12 @@
 7. Do not upload unreviewed NotebookLM output.
 
 Publication requires a clean source-boundary audit and explicit authorization.
+
+Public GitHub publication must exclude:
+
+- copyrighted textbook full text;
+- unauthorized scans or OCR text;
+- student privacy or personally identifiable information;
+- internal sensitive materials;
+- unreviewed NotebookLM outputs;
+- artifacts whose maturity or source authority is unresolved.

@@ -27,3 +27,18 @@ NotebookLM output is always raw output, not formal course material. Formal mater
 `source intake -> source audit -> material database -> course adaptation -> lesson pathway -> lesson plan -> student task -> assessment -> course closeout/reuse`
 
 When authority, provenance, maturity, or ownership is unclear, apply `GOVERNANCE/FAIL_CLOSED_RULES.md`.
+
+## Architecture Boundary
+
+The repository architecture must keep these layers distinct:
+
+1. workflow governance;
+2. shared reusable patterns;
+3. course instance scaffold;
+4. course-specific SOT;
+5. material database maturity levels;
+6. NotebookLM intake and review;
+7. source audit;
+8. assessment audit.
+
+NotebookLM output begins below source-audited status and may not bypass the material maturity chain. Public publication boundaries are governed separately and must exclude copyrighted full text, unauthorized scans, student privacy, and internal sensitive artifacts.

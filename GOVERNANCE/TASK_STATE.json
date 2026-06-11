@@ -2,13 +2,14 @@
   "repo": "lesson_prep_workflow",
   "project_type": "lesson_prep_workflow_repo",
   "current_course": "classical_chinese_translation",
-  "current_task": "TASK-LPW-GOV-003",
-  "current_task_title": "Architecture Hardening Patch",
+  "current_task": "TASK-LPW-GOV-004",
+  "current_task_title": "Prompt Governance And NotebookLM Intake Contract",
   "status": "not_started",
-  "next_task": "TASK-LPW-GOV-004",
-  "next_task_title": "Prompt Governance And NotebookLM Intake Contract",
+  "next_task": "TASK-LPW-GOV-005",
+  "next_task_title": "Shared Skills Registry Hardening",
   "completed_tasks": [
-    "TASK-LPW-GOV-002"
+    "TASK-LPW-GOV-002",
+    "TASK-LPW-GOV-003"
   ],
   "fail_closed": true,
   "cross_repo_reference": "read_only",
