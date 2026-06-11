@@ -19,11 +19,11 @@ The governance route is:
 
 `TASK-CLCH-GOV-000 | Classical Chinese Course Roadmap And Task Registry` is completed as a course-governance shell for `COURSES/classical_chinese`.
 
-This route is independent from `classical_chinese_translation` and remains in governance shell / roadmap stage only.
+This route is the only formal Classical Chinese route. The former standalone `COURSES/classical_chinese_translation` line is retired and preserved only as `COURSES/classical_chinese/LEGACY_IMPORTS/classical_chinese_translation` for audit-only legacy reference.
 
 Current course-line route:
 
-`TASK-CLCH-GOV-000` completed -> `TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap` completed -> `TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course` completed -> `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary` completed -> `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract` completed -> `TASK-CLCH-MAT-001 | Knowledge Map Extraction` next -> `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix` planned -> `TASK-CLCH-LESSON-001 | 16-Week Course Architecture` planned -> `TASK-CLCH-LESSON-002 | Unit Template And Lesson Design Contract` planned -> `TASK-CLCH-PROMPT-001 | NotebookLM And Agent Prompt Pack Contract` planned -> `TASK-CLCH-ASSESS-001 | Assessment And Assignment Framework` planned -> `TASK-CLCH-REVIEW-001 | Course Retrospective And Quality Review` planned
+`TASK-CLCH-GOV-000` completed -> `TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap` completed -> `TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course` completed -> `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary` completed -> `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract` completed -> `TASK-CLCH-GOV-005 | Merge Legacy Classical Chinese Translation Route Into Formal Course Route` completed -> `TASK-CLCH-MAT-001 | Knowledge Map Extraction` next -> `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix` planned -> `TASK-CLCH-LESSON-001 | 16-Week Course Architecture` planned -> `TASK-CLCH-LESSON-002 | Unit Template And Lesson Design Contract` planned -> `TASK-CLCH-PROMPT-001 | NotebookLM And Agent Prompt Pack Contract` planned -> `TASK-CLCH-ASSESS-001 | Assessment And Assignment Framework` planned -> `TASK-CLCH-REVIEW-001 | Course Retrospective And Quality Review` planned
 
 No formal lesson production has begun for `classical_chinese`.
 
@@ -34,3 +34,5 @@ NotebookLM output for this course line must pass intake and citation-boundary co
 `TASK-CLCH-GOV-003` is governance-only. It defines the Classical Chinese source-authority ladder, mandatory source fields, NotebookLM non-substitution rule, copyright boundary, and fail-closed promotion limits for future source-derived artifacts.
 
 `TASK-CLCH-GOV-004` is governance-only. It defines the Classical Chinese task-family routing contract, branch and filename conventions, anti-drift naming rules, and cross-file pointer consistency rules. The next task after it is `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
+
+`TASK-CLCH-GOV-005` is governance-only. It merges the retired standalone `classical_chinese_translation` route into `COURSES/classical_chinese/LEGACY_IMPORTS/classical_chinese_translation`, preserves the legacy files without promoting their governance state, removes the duplicate top-level course entry, and keeps `TASK-CLCH-MAT-001 | Knowledge Map Extraction` as the next task.

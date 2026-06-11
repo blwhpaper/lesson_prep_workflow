@@ -46,6 +46,7 @@ The agent must also keep reads minimal:
 - read only the files required for the current `TASK-CLCH-*`
 - do not scan the whole repository
 - do not read another course line unless the task card explicitly authorizes it
+- for the Classical Chinese line, treat `COURSES/classical_chinese` as the only formal route and treat `COURSES/classical_chinese/LEGACY_IMPORTS/classical_chinese_translation` as audit-only legacy material
 - do not drift into `BTC_WATCHFLOW`, `NESP`, `Lin Yutang paper`, `Thesis_Format_Fixer`, or `daily-review`
 
 The agent must not generate lesson plans, slides, handouts, question banks, papers, or formal classroom materials during governance-only tasks.
@@ -73,8 +74,9 @@ If source identity, locator metadata, or copyright risk is unclear, the agent mu
 
 For this course line, the required pre-design route is:
 
-`TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course` -> `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary` -> `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract` -> `TASK-CLCH-MAT-001 | Knowledge Map Extraction` -> `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix` -> design-stage tasks
+`TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course` -> `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary` -> `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract` -> `TASK-CLCH-GOV-005 | Merge Legacy Classical Chinese Translation Route Into Formal Course Route` -> `TASK-CLCH-MAT-001 | Knowledge Map Extraction` -> `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix` -> design-stage tasks
 
-Keep `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE_LOG` aligned. After `TASK-CLCH-GOV-004`, the next route is `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
+Keep `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE_LOG` aligned. After `TASK-CLCH-GOV-005`, the next route is `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
+Before `TASK-CLCH-MAT-001` begins, ignore `LEGACY_IMPORTS/classical_chinese_translation` unless the active task card explicitly authorizes audited legacy-material use.
 
 Do not skip from boundary governance to lesson generation. AI/vibecoding belongs only to later method-layer activity design and must not replace the Ancient Chinese knowledge core.

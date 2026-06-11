@@ -40,3 +40,12 @@
 - Hardened anti-drift routing so `TASK-CLCH-*` work stays inside `COURSES/classical_chinese` and does not spill into unrelated project lines.
 - Updated boundary, roadmap, registry, SoT, operator guidance, and agent-entry files to keep route pointers synchronized across `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE_LOG`.
 - Advanced the course-line pointer to `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
+
+## 2026-06-12
+
+- Completed `TASK-CLCH-GOV-005` and merged the retired standalone `COURSES/classical_chinese_translation` route into `COURSES/classical_chinese/LEGACY_IMPORTS/classical_chinese_translation`.
+- Preserved all legacy files as quarantined audit-only material and added an explicit legacy README that blocks direct use in future `MAT`, `LESSON`, and `ASSESS` tasks unless a task card authorizes audited legacy use.
+- Removed the duplicate top-level course entry so `COURSES/classical_chinese` is now the only formal Classical Chinese course route in the repository.
+- Kept the old legacy governance files archived in place under `LEGACY_IMPORTS` without promoting them into top-level or formal-route source-of-truth status.
+- Updated the boundary, roadmap, registry, SoT, operator guidance, and agent-entry files to state that `LEGACY_IMPORTS/classical_chinese_translation` is isolated legacy material only.
+- Confirmed that `TASK-CLCH-GOV-000` through `TASK-CLCH-GOV-005` are completed and that the next route remains `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.

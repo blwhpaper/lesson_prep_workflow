@@ -40,5 +40,7 @@ Hard rules:
 - Require source fields when available: `source_title`, `source_type`, `source_author_or_editor`, `source_level`, `chapter_or_section`, `page_or_location_if_available`, `extraction_method`, `copyright_risk`, `classroom_use_scope`.
 - If source, locator metadata, or copyright risk is unclear, fail closed and output only summary, locator, index, or labeled draft content.
 - Keep `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE_LOG` aligned.
-- After `TASK-CLCH-GOV-004`, the next route is `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
+- `COURSES/classical_chinese` is the only formal course route for this line.
+- `COURSES/classical_chinese/LEGACY_IMPORTS/classical_chinese_translation` is isolated legacy material only and must not be treated as an active course line or source of record without explicit task-card authorization plus source audit.
+- After `TASK-CLCH-GOV-005`, tasks `TASK-CLCH-GOV-000` through `TASK-CLCH-GOV-005` are completed, and the next route is `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
 - Return branch, modified files, summary, acceptance checks, and remaining risks.

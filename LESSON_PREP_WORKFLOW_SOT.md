@@ -2,7 +2,7 @@
 
 ## Repository Identity
 
-This is the general lesson-preparation workflow repository. Its first course instance is `classical_chinese_translation`; it now also contains a governance-shell registration for `classical_chinese`. Future instances may include `modern_chinese`, `college_english`, and `gaokao_english`.
+This is the general lesson-preparation workflow repository. For the Classical Chinese line, `COURSES/classical_chinese` is the only formal course route. `COURSES/classical_chinese/LEGACY_IMPORTS/classical_chinese_translation` is a quarantined legacy import only, not a second course line. Future instances may include `modern_chinese`, `college_english`, and `gaokao_english`.
 
 Top-level directories govern protocols, templates, cross-course reuse, and shared skills. Every course owns its own `COURSE_SOT`, `COURSE_PLAN`, `COURSE_TASK_STATE`, and `COURSE_TASK_INDEX`.
 
@@ -81,6 +81,8 @@ Prompt and NotebookLM governance must also preserve input scope, forbidden-input
   - `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix`
   - only then may teaching-design tasks begin
 - AI/vibecoding belongs only to the method layer for this course line and must not replace Ancient Chinese knowledge ontology.
+- `TASK-CLCH-GOV-005 | Merge Legacy Classical Chinese Translation Route Into Formal Course Route` retires the standalone `COURSES/classical_chinese_translation` path and preserves it only under `COURSES/classical_chinese/LEGACY_IMPORTS/classical_chinese_translation`.
+- Unless a future task card explicitly authorizes audited legacy use, `TASK-CLCH-MAT-*`, `TASK-CLCH-LESSON-*`, and `TASK-CLCH-ASSESS-*` must ignore `LEGACY_IMPORTS`.
 
 ## Classical Chinese Cross-Agent Entry Rule
 

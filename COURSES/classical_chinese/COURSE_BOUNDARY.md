@@ -4,12 +4,22 @@
 
 - course code: `CLCH`
 - course line: `classical_chinese`
+- formal course route: `COURSES/classical_chinese`
+- legacy archive route: `COURSES/classical_chinese/LEGACY_IMPORTS/classical_chinese_translation`
 - course title: `Classical Chinese For Translation Studies And Practice`
 - course object: translation-major undergraduates
 - course format: 16 weeks, 2 class hours per week
 - course goal: build foundational Ancient Chinese competence that supports translation studies and translation practice
 - current stage: governance boundary bootstrap only
-- current stage detail: source-authority and copyright governance must complete before task-routing governance and before material extraction
+- current stage detail: legacy-route retirement governance is completed; `TASK-CLCH-MAT-001 | Knowledge Map Extraction` is next
+
+## route_identity_rule
+
+- `COURSES/classical_chinese` is the only formal course entry for the Classical Chinese line
+- `COURSES/classical_chinese/LEGACY_IMPORTS/classical_chinese_translation` is a quarantined legacy import only
+- the legacy import is not an active course route, not a source of truth, and not a valid default read target for future agents
+- old files such as `COURSE_SOT`, `COURSE_TASK_INDEX`, and `COURSE_TASK_STATE` preserved inside the legacy import remain archival context only and must not be merged into top-level governance state
+- `TASK-CLCH-MAT-*`, `TASK-CLCH-LESSON-*`, and `TASK-CLCH-ASSESS-*` must ignore the legacy import unless a future task card explicitly authorizes audited use
 
 ## learner_profile
 
