@@ -2,24 +2,28 @@
 
 ## Status
 
-`TASK-CLCH-GOV-000` created the governance shell. `TASK-CLCH-GOV-001` hardens the course boundary so later agents can enter the `classical_chinese` line without drifting into unauthorized teaching content or source promotion.
+`TASK-CLCH-GOV-000` created the governance shell. `TASK-CLCH-GOV-001` hardened the course boundary. `TASK-CLCH-GOV-002` now establishes the cross-agent entry layer so later agents can enter the `classical_chinese` line without drifting into unauthorized teaching content, source promotion, or cross-project work.
 
-This course has not yet entered approved teaching design. Material work must begin with knowledge extraction and a `16-session core material matrix`, not with lesson prose.
+This course has not yet entered approved teaching design. Governance must next harden source authority and copyright boundaries before material work begins. Material work must still begin with knowledge extraction and a `16-session core material matrix`, not with lesson prose.
 
 ## Route
 
 1. `TASK-CLCH-GOV-000` | Classical Chinese Course Roadmap And Task Registry | completed
 2. `TASK-CLCH-GOV-001` | Classical Chinese Course Boundary Bootstrap | completed
-3. `TASK-CLCH-MAT-001` | Knowledge Map Extraction | next
-4. `TASK-CLCH-MAT-002` | 16-Session Core Material Matrix | planned
-5. `TASK-CLCH-DES-001` | 16-Week Course Architecture | planned
-6. `TASK-CLCH-DES-002` | Unit Template And Lesson Design Contract | planned
-7. `TASK-CLCH-AI-001` | AI/Vibecoding Learning Activity Boundary | planned
-8. `TASK-CLCH-ASSESS-001` | Assessment And Assignment Framework | planned
+3. `TASK-CLCH-GOV-002` | Cross-Agent Entry Protocol For Classical Chinese Course | completed
+4. `TASK-CLCH-GOV-003` | Classical Chinese Source Authority And Copyright Boundary | next
+5. `TASK-CLCH-MAT-001` | Knowledge Map Extraction | planned
+6. `TASK-CLCH-MAT-002` | 16-Session Core Material Matrix | planned
+7. `TASK-CLCH-DES-001` | 16-Week Course Architecture | planned
+8. `TASK-CLCH-DES-002` | Unit Template And Lesson Design Contract | planned
+9. `TASK-CLCH-AI-001` | AI/Vibecoding Learning Activity Boundary | planned
+10. `TASK-CLCH-ASSESS-001` | Assessment And Assignment Framework | planned
 
 ## Sequencing Logic
 
 - governance comes first so scope, source package, NotebookLM limits, maturity gates, and anti-drift rules exist before material extraction
+- `TASK-CLCH-GOV-002` standardizes how Codex, Cursor, Antigravity, Claude, Gemini, and similar agents enter this course line with minimal reads and fail-closed checks
+- `TASK-CLCH-GOV-003` must lock source-authority and copyright rules before material extraction begins
 - `TASK-CLCH-MAT-001` maps the governed knowledge terrain without pretending lesson sequencing is already settled
 - `TASK-CLCH-MAT-002` must produce the `16-session core material matrix` before any teaching-design task can begin
 - design tasks follow only after material mapping becomes structured enough for a 16-week course architecture
@@ -30,7 +34,7 @@ This course has not yet entered approved teaching design. Material work must beg
 
 Minimum allowed route:
 
-`governance shell -> boundary bootstrap -> knowledge map extraction -> 16-session core material matrix -> 16-week course architecture -> lesson-design contract -> AI/vibecoding activity boundary -> assessment and assignment framework`
+`governance shell -> boundary bootstrap -> cross-agent entry protocol -> source authority and copyright boundary -> knowledge map extraction -> 16-session core material matrix -> 16-week course architecture -> lesson-design contract -> AI/vibecoding activity boundary -> assessment and assignment framework`
 
 ## NotebookLM Rule
 

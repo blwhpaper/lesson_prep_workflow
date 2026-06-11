@@ -66,7 +66,32 @@ Prompt and NotebookLM governance must also preserve input scope, forbidden-input
   - the current `TASK-CLCH-*` card
   - the previous `TASK-CLCH-*` closeout
 - The first material-design gate for this course is not lesson drafting. The required next route is:
+  - `TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course`
+  - `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary`
   - `TASK-CLCH-MAT-001 | Knowledge Map Extraction`
   - `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix`
   - only then may teaching-design tasks begin
 - AI/vibecoding belongs only to the method layer for this course line and must not replace Ancient Chinese knowledge ontology.
+
+## Classical Chinese Cross-Agent Entry Rule
+
+When the operator says `TASK-CLCH-XXX 开工`, the active agent must use the Classical Chinese entry protocol rather than a generic whole-repository scan.
+
+- Minimum read order:
+  - `AGENTS.md`
+  - `LESSON_PREP_WORKFLOW_SOT.md`
+  - `GOVERNANCE/PLAN.md`
+  - `GOVERNANCE/TASK_STATE.json`
+  - `GOVERNANCE/TASK_INDEX.md`
+  - `GOVERNANCE/CHANGE_LOG.md`
+  - `docs/OPERATOR_GUIDE.md`
+  - `COURSES/classical_chinese/COURSE_BOUNDARY.md`
+  - `COURSES/classical_chinese/ROADMAP.md`
+  - `COURSES/classical_chinese/TASK_REGISTRY.md`
+  - the current `TASK-CLCH-*` card
+  - the previous closeout
+  - `git status --short --branch`
+- Fail closed when the task id, current branch, `TASK_STATE`, roadmap, or registry does not align.
+- Do not drift into `BTC_WATCHFLOW`, `NESP`, `Lin Yutang paper`, `Thesis_Format_Fixer`, or `daily-review`.
+- Do not generate lesson plans, slides, question banks, papers, or formal classroom materials during governance-only tasks.
+- Textbook packages by Wang Li, Guo Xiliang, Qiu Xigui, and related authors remain governed source inputs only and may not be reproduced in long copyrighted form.

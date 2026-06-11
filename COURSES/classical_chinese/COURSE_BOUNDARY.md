@@ -9,6 +9,7 @@
 - course format: 16 weeks, 2 class hours per week
 - course goal: build foundational Ancient Chinese competence that supports translation studies and translation practice
 - current stage: governance boundary bootstrap only
+- current stage detail: cross-agent entry governance is required before source-authority governance and before material extraction
 
 ## learner_profile
 
@@ -28,6 +29,47 @@
 - the existence of these uploads authorizes only boundary-setting in this task, not content extraction claims
 - no course content may be supplemented from memory, generic internet summaries, or undeclared external repositories
 - later source extraction must remain traceable by work unit, source identity, and locator metadata
+- agents must not ask for or reproduce long copyrighted passages from these works
+
+## cross_agent_entry_boundary
+
+- the operator start phrase for this course line is `TASK-CLCH-XXX 开工`
+- the required entry header is:
+  - course code `CLCH`
+  - course line `classical_chinese`
+  - active task family `TASK-CLCH-*`
+  - governance-only mode unless the active task card authorizes a later stage
+  - fail-closed default `true`
+- the minimum read order is:
+  - `AGENTS.md`
+  - `LESSON_PREP_WORKFLOW_SOT.md`
+  - `GOVERNANCE/PLAN.md`
+  - `GOVERNANCE/TASK_STATE.json`
+  - `GOVERNANCE/TASK_INDEX.md`
+  - `GOVERNANCE/CHANGE_LOG.md`
+  - `docs/OPERATOR_GUIDE.md`
+  - `COURSES/classical_chinese/COURSE_BOUNDARY.md`
+  - `COURSES/classical_chinese/ROADMAP.md`
+  - `COURSES/classical_chinese/TASK_REGISTRY.md`
+  - the current task card
+  - the previous closeout
+  - `git status --short --branch`
+- token-saving rule:
+  - read only the files required for the active `TASK-CLCH-*`
+  - do not scan the whole repository
+  - do not read another course line unless a task card explicitly authorizes it
+- forbidden drift targets:
+  - `BTC_WATCHFLOW`
+  - `NESP`
+  - `Lin Yutang paper`
+  - `Thesis_Format_Fixer`
+  - `daily-review`
+- required response footer:
+  - current branch
+  - changed files
+  - protocol summary
+  - acceptance-command results
+  - risks or unfinished items
 
 ## NotebookLM_boundary
 
@@ -65,6 +107,7 @@
 - course content maturity has not advanced through source audit, reliability grading, course adaptation, or assessment suitability review
 - no artifact produced here may be labeled lesson-ready, assessment-ready, or publication-ready
 - the next mature output target is not a lesson plan; it is a governed knowledge map and then a `16-session core material matrix`
+- governance tasks must not generate lesson plans, slides, question banks, papers, or formal classroom materials
 
 ## fail_closed_rules
 
@@ -76,6 +119,7 @@
   - whether an AI/vibecoding activity is method-layer support or an improper content substitute
   - whether copyright or publication permission covers the requested excerpt or export
 - when fail-closed triggers occur, preserve the artifact at governance or draft level and do not promote downstream use
+- when `TASK_STATE`, `ROADMAP`, `TASK_REGISTRY`, the requested `TASK-CLCH-*`, or the current branch conflict, stop immediately and report `needs human review`
 
 ## forbidden_outputs
 
@@ -88,6 +132,7 @@
 - long textbook quotations
 - fabricated claims that knowledge extraction is already complete
 - AI/vibecoding-centered syllabus that sidelines Ancient Chinese core knowledge
+- cross-project governance or content drift into `BTC_WATCHFLOW`, `NESP`, `Lin Yutang paper`, `Thesis_Format_Fixer`, or `daily-review`
 
 ## allowed_next_outputs
 
