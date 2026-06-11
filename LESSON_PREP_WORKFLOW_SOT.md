@@ -101,8 +101,20 @@ When the operator says `TASK-CLCH-XXX 开工`, the active agent must use the Cla
   - the previous closeout
   - `git status --short --branch`
 - Fail closed when the task id, current branch, `TASK_STATE`, roadmap, or registry does not align.
+- Normalize the requested task into a task family before acting:
+  - `TASK-CLCH-GOV-*` = governance-only boundary, routing, protocol, index, or agent-constraint work
+  - `TASK-CLCH-MAT-*` = material extraction and material mapping below lesson level
+  - `TASK-CLCH-PROMPT-*` = prompt-pack and extraction-prompt workflow work
+  - `TASK-CLCH-LESSON-*` = lesson design and PPT-structure work for specific lessons or units
+  - `TASK-CLCH-ASSESS-*` = homework, quiz, rubric, and evaluation design
+  - `TASK-CLCH-REVIEW-*` = review, retrospective, and audit work
+- Use `task-clch-<type>-<number>-<kebab-title>` for Classical Chinese task branches.
+- Use `TASK-CLCH-<TYPE>-<NNN>_<Title_Case_With_Underscores>.md` for Classical Chinese task-card and governance filenames.
+- Use `CLOSEOUTS/TASK-CLCH-<TYPE>-<NNN>_Closeout.md` for Classical Chinese closeouts.
 - Do not drift into `BTC_WATCHFLOW`, `NESP`, `Lin Yutang paper`, `Thesis_Format_Fixer`, or `daily-review`.
 - Do not generate lesson plans, slides, question banks, papers, or formal classroom materials during governance-only tasks.
+- Do not generate a full course, full PPT set, or full question bank unless the active task family and task card explicitly authorize that scope.
 - Textbook packages by Wang Li, Guo Xiliang, Qiu Xigui, and related authors remain governed source inputs only and may not be reproduced in long copyrighted form.
 - For this course line, source-authority governance must use the ladder `L0 repo governance SoT -> L1 course boundary / roadmap / registry -> L2 textbook or reference corpus metadata -> L3 NotebookLM extraction notes -> L4 agent-generated summaries / matrices / drafts -> L5 classroom-facing deliverables`.
 - If source identity, locator metadata, copyright risk, or publication scope is unclear, fail closed and keep the artifact at summary, index, or draft level only.
+- Keep task pointers aligned across `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE_LOG`.

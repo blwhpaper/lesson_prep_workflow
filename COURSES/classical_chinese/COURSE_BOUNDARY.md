@@ -97,6 +97,17 @@
   - read only the files required for the active `TASK-CLCH-*`
   - do not scan the whole repository
   - do not read another course line unless a task card explicitly authorizes it
+- task-family routing rule:
+  - `TASK-CLCH-GOV-*` = governance, boundary, routing, protocol, index, and agent constraints only
+  - `TASK-CLCH-MAT-*` = material mapping, knowledge map extraction, and source-grounded material matrices below lesson level
+  - `TASK-CLCH-PROMPT-*` = NotebookLM, Claude, Cursor, Codex, and similar prompt-pack or extraction-prompt workflow tasks
+  - `TASK-CLCH-LESSON-*` = lesson plans, handouts, classroom activities, and PPT structure for specific lessons or units
+  - `TASK-CLCH-ASSESS-*` = homework, quizzes, rubrics, and student-output evaluation
+  - `TASK-CLCH-REVIEW-*` = retrospective, quality review, and version audit
+- naming rule:
+  - branch format = `task-clch-<type>-<number>-<kebab-title>`
+  - task-card or governance filename format = `TASK-CLCH-<TYPE>-<NNN>_<Title_Case_With_Underscores>.md`
+  - closeout filename format = `CLOSEOUTS/TASK-CLCH-<TYPE>-<NNN>_Closeout.md`
 - forbidden drift targets:
   - `BTC_WATCHFLOW`
   - `NESP`
@@ -153,6 +164,8 @@
 - no artifact produced here may be labeled lesson-ready, assessment-ready, or publication-ready
 - the next mature output target is not a lesson plan; it is a governed knowledge map and then a `16-session core material matrix`
 - governance tasks must not generate lesson plans, slides, question banks, papers, or formal classroom materials
+- no task may generate a full course, full PPT set, or full question bank unless the active task family and task card explicitly authorize that scope
+- route pointers across `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE_LOG` must stay aligned
 
 ## fail_closed_rules
 
