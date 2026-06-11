@@ -21,3 +21,9 @@
 - Completed `TASK-CLCH-GOV-000` and registered a separate `COURSES/classical_chinese` governance shell.
 - Added the Classical Chinese roadmap, task registry, and course-boundary guardrails.
 - Routed the new course line through NotebookLM intake and maturity controls before any lesson production.
+- Completed `TASK-CLCH-GOV-001` and hardened the Classical Chinese course boundary bootstrap layer.
+- Defined the course identity as a 16-week, translation-major undergraduate course serving translation studies and practice.
+- Fixed the source boundary around the user-uploaded textbook package without claiming NotebookLM extraction is already complete.
+- Required the future material route to produce a `16-session core material matrix` before any teaching design begins.
+- Classified AI/vibecoding as method-layer support only and kept CNKI prompt work as a downstream activity-design concern.
+- Advanced the course-line pointer to `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.

@@ -2,36 +2,36 @@
 
 ## Status
 
-`TASK-CLCH-GOV-000` establishes this course line as a governance shell only. This course has not entered source-approved material intake, lesson design, assessment production, or export.
+`TASK-CLCH-GOV-000` created the governance shell. `TASK-CLCH-GOV-001` hardens the course boundary so later agents can enter the `classical_chinese` line without drifting into unauthorized teaching content or source promotion.
+
+This course has not yet entered approved teaching design. Material work must begin with knowledge extraction and a `16-session core material matrix`, not with lesson prose.
 
 ## Route
 
-1. `TASK-CLCH-GOV-000` | roadmap and task registry | completed
-2. `TASK-CLCH-GOV-001` | course boundary bootstrap | pending
-3. `TASK-CLCH-GOV-002` | NotebookLM source intake and citation boundary | planned
-4. `TASK-CLCH-GOV-003` | cross-agent course entry protocol | planned
-5. `TASK-CLCH-GOV-004` | artifact maturity and export contract | planned
-6. `TASK-CLCH-MAT-001` | knowledge map extraction | planned
-7. `TASK-CLCH-MAT-002` | 16-week core material matrix | planned
-8. `TASK-CLCH-MAT-003` | textbook-to-theme source map | planned
-9. `TASK-CLCH-PROMPT-001` | student CNKI prompt assignment contract | planned
-10. `TASK-CLCH-LESSON-001` | Week 1 lesson skeleton | planned
-11. `TASK-CLCH-ASSESS-001` | assessment and rubric boundary | planned
-12. `TASK-CLCH-EXPORT-001` | export packaging contract | planned
+1. `TASK-CLCH-GOV-000` | Classical Chinese Course Roadmap And Task Registry | completed
+2. `TASK-CLCH-GOV-001` | Classical Chinese Course Boundary Bootstrap | completed
+3. `TASK-CLCH-MAT-001` | Knowledge Map Extraction | next
+4. `TASK-CLCH-MAT-002` | 16-Session Core Material Matrix | planned
+5. `TASK-CLCH-DES-001` | 16-Week Course Architecture | planned
+6. `TASK-CLCH-DES-002` | Unit Template And Lesson Design Contract | planned
+7. `TASK-CLCH-AI-001` | AI/Vibecoding Learning Activity Boundary | planned
+8. `TASK-CLCH-ASSESS-001` | Assessment And Assignment Framework | planned
 
 ## Sequencing Logic
 
-- Governance tasks come first so later agents inherit explicit scope, source, maturity, and export rules.
-- Material tasks come before any lesson task so no lesson artifact is drafted from unaudited or unadapted inputs.
-- `TASK-CLCH-PROMPT-001` sits after material mapping and before lesson work because prompt contracts must point to governed source scope rather than improvising it.
-- Assessment and export remain downstream because they depend on lesson-ready and maturity-controlled inputs.
+- governance comes first so scope, source package, NotebookLM limits, maturity gates, and anti-drift rules exist before material extraction
+- `TASK-CLCH-MAT-001` maps the governed knowledge terrain without pretending lesson sequencing is already settled
+- `TASK-CLCH-MAT-002` must produce the `16-session core material matrix` before any teaching-design task can begin
+- design tasks follow only after material mapping becomes structured enough for a 16-week course architecture
+- AI/vibecoding sits after design prerequisites because it is a method-layer overlay, not the content ontology
+- assessment comes after architecture and activity boundaries because assignments must depend on already bounded content and method choices
 
 ## Stage Gate
 
-This course must not jump from governance directly to formal teaching artifacts. Minimum route:
+Minimum allowed route:
 
-`governance shell -> source intake boundary -> maturity/export guardrails -> material mapping -> prompt contract -> lesson skeleton -> assessment boundary -> export packaging`
+`governance shell -> boundary bootstrap -> knowledge map extraction -> 16-session core material matrix -> 16-week course architecture -> lesson-design contract -> AI/vibecoding activity boundary -> assessment and assignment framework`
 
 ## NotebookLM Rule
 
-NotebookLM output is allowed only as raw intake support. It must pass the repository intake, citation, and maturity chain before any downstream course use.
+NotebookLM output is allowed only as raw intake support from the user-uploaded textbook package. It must not be treated as completed teaching design and must flow through the material route before any lesson architecture work.

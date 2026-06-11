@@ -23,8 +23,8 @@ This route is independent from `classical_chinese_translation` and remains in go
 
 Current course-line route:
 
-`TASK-CLCH-GOV-000` completed -> `TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap` pending -> `TASK-CLCH-GOV-002 | NotebookLM Source Intake And Citation Boundary` planned -> `TASK-CLCH-GOV-003 | Cross-Agent Classical Chinese Course Entry Protocol` planned -> `TASK-CLCH-GOV-004 | Course Artifact Maturity And Export Contract` planned
+`TASK-CLCH-GOV-000` completed -> `TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap` completed -> `TASK-CLCH-MAT-001 | Knowledge Map Extraction` next -> `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix` planned -> `TASK-CLCH-DES-001 | 16-Week Course Architecture` planned -> `TASK-CLCH-DES-002 | Unit Template And Lesson Design Contract` planned -> `TASK-CLCH-AI-001 | AI/Vibecoding Learning Activity Boundary` planned -> `TASK-CLCH-ASSESS-001 | Assessment And Assignment Framework` planned
 
 No formal lesson production has begun for `classical_chinese`.
 
-NotebookLM output for this course line must pass intake and citation-boundary controls before entering the material route.
+NotebookLM output for this course line must pass intake and citation-boundary controls before entering the material route, and the material route must produce a `16-session core material matrix` before teaching design begins.

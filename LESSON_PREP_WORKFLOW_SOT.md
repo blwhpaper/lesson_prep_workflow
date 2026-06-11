@@ -53,3 +53,20 @@ Prompt and NotebookLM governance must also preserve input scope, forbidden-input
 - It does not activate formal lesson production.
 - NotebookLM output for this course line must first pass intake and citation-boundary review.
 - Material mapping must precede lesson design, and lesson design must precede assessment/export work.
+
+## Classical Chinese Boundary Bootstrap Entry
+
+`TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap` is the stable entry point for governed execution of the standalone `classical_chinese` route.
+
+- When a user explicitly starts a `TASK-CLCH-*` task, that task card defines the active course line for execution even if `CURRENT_COURSE.md` still points to another default course.
+- Agents must read the Classical Chinese boundary stack before acting:
+  - `COURSES/classical_chinese/COURSE_BOUNDARY.md`
+  - `COURSES/classical_chinese/ROADMAP.md`
+  - `COURSES/classical_chinese/TASK_REGISTRY.md`
+  - the current `TASK-CLCH-*` card
+  - the previous `TASK-CLCH-*` closeout
+- The first material-design gate for this course is not lesson drafting. The required next route is:
+  - `TASK-CLCH-MAT-001 | Knowledge Map Extraction`
+  - `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix`
+  - only then may teaching-design tasks begin
+- AI/vibecoding belongs only to the method layer for this course line and must not replace Ancient Chinese knowledge ontology.
