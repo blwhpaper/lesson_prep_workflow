@@ -1,0 +1,28 @@
+---
+description: Classical Chinese course entry protocol
+globs:
+alwaysApply: false
+---
+
+When the user says `TASK-CLCH-XXX 开工`, read only:
+
+1. `AGENTS.md`
+2. `LESSON_PREP_WORKFLOW_SOT.md`
+3. `GOVERNANCE/PLAN.md`
+4. `GOVERNANCE/TASK_STATE.json`
+5. `GOVERNANCE/TASK_INDEX.md`
+6. `GOVERNANCE/CHANGE_LOG.md`
+7. `docs/OPERATOR_GUIDE.md`
+8. `COURSES/classical_chinese/COURSE_BOUNDARY.md`
+9. `COURSES/classical_chinese/ROADMAP.md`
+10. `COURSES/classical_chinese/TASK_REGISTRY.md`
+11. the current `TASK-CLCH-*` card
+12. the previous closeout
+13. `git status --short --branch`
+
+Fail closed if the requested task, branch, task state, roadmap, and registry do not align.
+
+Do not drift into `BTC_WATCHFLOW`, `NESP`, `Lin Yutang paper`, `Thesis_Format_Fixer`, or `daily-review`.
+Do not generate lessons, slides, question banks, papers, or formal classroom materials during governance tasks.
+Do not reproduce long copyrighted textbook passages.
+Return branch, changed files, summary, acceptance results, and risks.

@@ -23,3 +23,61 @@ Every agent must follow this read order before acting:
 - Unknown source, copyright boundary, task state, active course, or cross-repository permission means fail closed: stop, record `needs human review`, and do not promote the artifact.
 
 The active task is repository governance only. Do not advance a course task unless its task card is active.
+
+## Classical Chinese Cross-Agent Entry Override
+
+When a user explicitly says `TASK-CLCH-XXX 开工`, that request activates only the named `TASK-CLCH-*` task for the `COURSES/classical_chinese` line.
+
+Required read order for that route:
+
+1. `AGENTS.md`
+2. `LESSON_PREP_WORKFLOW_SOT.md`
+3. `GOVERNANCE/PLAN.md`
+4. `GOVERNANCE/TASK_STATE.json`
+5. `GOVERNANCE/TASK_INDEX.md`
+6. `GOVERNANCE/CHANGE_LOG.md`
+7. `docs/OPERATOR_GUIDE.md`
+8. `COURSES/classical_chinese/COURSE_BOUNDARY.md`
+9. `COURSES/classical_chinese/ROADMAP.md`
+10. `COURSES/classical_chinese/TASK_REGISTRY.md`
+11. the current `TASK-CLCH-*` task card
+12. the previous closeout for the same route family when it exists
+13. `git status --short --branch`
+
+Required operating rules:
+
+- Fail closed if the task number, current branch, `GOVERNANCE/TASK_STATE.json`, `COURSES/classical_chinese/ROADMAP.md`, and `COURSES/classical_chinese/TASK_REGISTRY.md` do not align.
+- Read only the files needed for the current `TASK-CLCH-*` task. Do not scan the full repository and do not read other course lines by default.
+- Do not drift into `BTC_WATCHFLOW`, `NESP`, `Lin Yutang paper`, `Thesis_Format_Fixer`, or `daily-review`.
+- Do not generate lesson plans, slides, question banks, papers, or formal classroom materials during governance-only tasks.
+- Treat Wang Li, Guo Xiliang, Qiu Xigui, and related textbook packages as user-authorized or NotebookLM-extracted source inputs only. Do not reproduce long copyrighted passages.
+- End each governed task response with the current branch, changed files, protocol or rule summary, acceptance-command results, and risks or unfinished items.
+
+## Classical Chinese Cross-Agent Entry Override
+
+When a user explicitly says `TASK-CLCH-XXX 开工`, that request activates only the named `TASK-CLCH-*` task for the `COURSES/classical_chinese` line.
+
+Required read order for that route:
+
+1. `AGENTS.md`
+2. `LESSON_PREP_WORKFLOW_SOT.md`
+3. `GOVERNANCE/PLAN.md`
+4. `GOVERNANCE/TASK_STATE.json`
+5. `GOVERNANCE/TASK_INDEX.md`
+6. `GOVERNANCE/CHANGE_LOG.md`
+7. `docs/OPERATOR_GUIDE.md`
+8. `COURSES/classical_chinese/COURSE_BOUNDARY.md`
+9. `COURSES/classical_chinese/ROADMAP.md`
+10. `COURSES/classical_chinese/TASK_REGISTRY.md`
+11. the current `TASK-CLCH-*` task card
+12. the previous closeout for the same route family when it exists
+13. `git status --short --branch`
+
+Required operating rules:
+
+- Fail closed if the task number, current branch, `GOVERNANCE/TASK_STATE.json`, `COURSES/classical_chinese/ROADMAP.md`, and `COURSES/classical_chinese/TASK_REGISTRY.md` do not align.
+- Read only the files needed for the current `TASK-CLCH-*` task. Do not scan the full repository and do not read other course lines by default.
+- Do not drift into `BTC_WATCHFLOW`, `NESP`, `Lin Yutang paper`, `Thesis_Format_Fixer`, or `daily-review`.
+- Do not generate lesson plans, slides, question banks, papers, or formal classroom materials during governance-only tasks.
+- Treat Wang Li, Guo Xiliang, Qiu Xigui, and related textbook packages as user-authorized or NotebookLM-extracted source inputs only. Do not reproduce long copyrighted passages.
+- End each governed task response with the current branch, changed files, protocol or rule summary, acceptance-command results, and risks or unfinished items.

@@ -27,3 +27,7 @@
 - Required the future material route to produce a `16-session core material matrix` before any teaching design begins.
 - Classified AI/vibecoding as method-layer support only and kept CNKI prompt work as a downstream activity-design concern.
 - Advanced the course-line pointer to `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
+- Completed `TASK-CLCH-GOV-002` and inserted a governed cross-agent entry protocol before source-authority and material work.
+- Added the `TASK-CLCH-XXX 开工` entry rule, minimum read order, anti-drift exclusions, fail-closed checks, and required response footer for the Classical Chinese course line.
+- Added optional agent-facing protocol files for `AGENTS.md`, `GEMINI.md`, and Cursor rule guidance.
+- Corrected the next pointer so the route advances to `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary` instead of jumping directly to `TASK-CLCH-MAT-001`.
