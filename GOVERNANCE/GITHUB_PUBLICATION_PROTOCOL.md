@@ -7,6 +7,7 @@
 5. Decide public versus private policy before repository creation.
 6. Do not upload copyright-restricted sources.
 7. Do not upload unreviewed NotebookLM output.
+8. Do not upload prompts or generated artifacts whose source scope, copyright status, privacy status, or publication boundary is unresolved.
 
 Publication requires a clean source-boundary audit and explicit authorization.
 
@@ -17,4 +18,5 @@ Public GitHub publication must exclude:
 - student privacy or personally identifiable information;
 - internal sensitive materials;
 - unreviewed NotebookLM outputs;
+- prompts or generated artifacts with unresolved source, privacy, copyright, or publication boundaries;
 - artifacts whose maturity or source authority is unresolved.

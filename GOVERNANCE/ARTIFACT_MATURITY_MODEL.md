@@ -15,6 +15,7 @@
 - Only L5 may enter an examination.
 - Only L6 may enter cross-course shared templates or patterns.
 - NotebookLM output starts only as L0 or L1.
+- Prompt templates are workflow-control artifacts. Their `maturity_label` governs review strictness and publication boundary, but it does not convert them into lesson or assessment material.
 - Promotion may not skip any level.
 
 Promotion is explicit, documented, and reversible when new evidence appears.

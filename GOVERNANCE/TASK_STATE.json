@@ -4,12 +4,13 @@
   "current_course": "classical_chinese_translation",
   "current_task": "TASK-LPW-GOV-004",
   "current_task_title": "Prompt Governance And NotebookLM Intake Contract",
-  "status": "not_started",
+  "status": "completed",
   "next_task": "TASK-LPW-GOV-005",
-  "next_task_title": "Shared Skills Registry Hardening",
+  "next_task_title": "placeholder / needs_task_definition",
   "completed_tasks": [
     "TASK-LPW-GOV-002",
-    "TASK-LPW-GOV-003"
+    "TASK-LPW-GOV-003",
+    "TASK-LPW-GOV-004"
   ],
   "fail_closed": true,
   "cross_repo_reference": "read_only",

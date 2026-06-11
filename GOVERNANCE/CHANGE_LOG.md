@@ -14,3 +14,7 @@
 - Corrected route drift so `TASK-LPW-GOV-003` is not mislabeled as source audit or NotebookLM review work.
 - Completed `TASK-LPW-GOV-003` and advanced the governance pointer to `TASK-LPW-GOV-004 | Prompt Governance And NotebookLM Intake Contract`.
 - Did not advance any course task.
+- Created the missing `TASK-LPW-GOV-004 | Prompt Governance And NotebookLM Intake Contract` task card, governance contract, and closeout.
+- Formalized prompt metadata requirements, NotebookLM intake metadata, five-part review gates, and fail-closed publication boundaries.
+- Kept prompts classified as input contracts only and NotebookLM output classified as `draft` / `extracted` / `unverified` by default.
+- Completed `TASK-LPW-GOV-004` and moved `TASK-LPW-GOV-005` to `placeholder / needs_task_definition`.
