@@ -2,7 +2,7 @@
 
 ## Repository Identity
 
-This is the general lesson-preparation workflow repository. Its first course instance is `classical_chinese_translation`; future instances may include `modern_chinese`, `college_english`, and `gaokao_english`.
+This is the general lesson-preparation workflow repository. Its first course instance is `classical_chinese_translation`; it now also contains a governance-shell registration for `classical_chinese`. Future instances may include `modern_chinese`, `college_english`, and `gaokao_english`.
 
 Top-level directories govern protocols, templates, cross-course reuse, and shared skills. Every course owns its own `COURSE_SOT`, `COURSE_PLAN`, `COURSE_TASK_STATE`, and `COURSE_TASK_INDEX`.
 
@@ -45,3 +45,11 @@ The repository architecture must keep these layers distinct:
 
 NotebookLM output begins below source-audited status and may not bypass the material maturity chain. Public publication boundaries are governed separately and must exclude copyrighted full text, unauthorized scans, student privacy, and internal sensitive artifacts.
 Prompt and NotebookLM governance must also preserve input scope, forbidden-input boundaries, review gates, and publication boundaries as explicit repository metadata.
+
+## Registered Classical Chinese Governance Route
+
+`TASK-CLCH-GOV-000 | Classical Chinese Course Roadmap And Task Registry` establishes only the governance shell for `COURSES/classical_chinese`.
+
+- It does not activate formal lesson production.
+- NotebookLM output for this course line must first pass intake and citation-boundary review.
+- Material mapping must precede lesson design, and lesson design must precede assessment/export work.

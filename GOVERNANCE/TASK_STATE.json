@@ -2,15 +2,18 @@
   "repo": "lesson_prep_workflow",
   "project_type": "lesson_prep_workflow_repo",
   "current_course": "classical_chinese_translation",
-  "current_task": "TASK-LPW-GOV-004",
-  "current_task_title": "Prompt Governance And NotebookLM Intake Contract",
+  "current_task": "TASK-CLCH-GOV-000",
+  "current_task_title": "Classical Chinese Course Roadmap And Task Registry",
+  "current_status": "completed",
   "status": "completed",
-  "next_task": "TASK-LPW-GOV-005",
-  "next_task_title": "placeholder / needs_task_definition",
+  "next_task": "TASK-CLCH-GOV-001",
+  "next_task_title": "Classical Chinese Course Boundary Bootstrap",
+  "next_status": "pending",
   "completed_tasks": [
     "TASK-LPW-GOV-002",
     "TASK-LPW-GOV-003",
-    "TASK-LPW-GOV-004"
+    "TASK-LPW-GOV-004",
+    "TASK-CLCH-GOV-000"
   ],
   "fail_closed": true,
   "cross_repo_reference": "read_only",
