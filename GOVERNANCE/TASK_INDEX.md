@@ -9,20 +9,16 @@
 | TASK-LPW-GOV-005 | placeholder / needs_task_definition | not started | not created |
 | TASK-LPW-GOV-006 | course expansion dry run | not started | not created |
 | TASK-CLCH-GOV-000 | Classical Chinese Course roadmap and task registry | completed | `TASK_CARDS/TASK-CLCH-GOV-000_Classical_Chinese_Course_Roadmap_And_Task_Registry.md`; governance record: `GOVERNANCE/TASK-CLCH-GOV-000_Classical_Chinese_Course_Roadmap_And_Task_Registry.md`; closeout: `CLOSEOUTS/TASK-CLCH-GOV-000_Closeout.md` |
-| TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap | pending | not created |
-| TASK-CLCH-GOV-002 | NotebookLM Source Intake And Citation Boundary | planned | not created |
-| TASK-CLCH-GOV-003 | Cross-Agent Classical Chinese Course Entry Protocol | planned | not created |
-| TASK-CLCH-GOV-004 | Course Artifact Maturity And Export Contract | planned | not created |
-| TASK-CLCH-MAT-001 | Knowledge Map Extraction | planned | not created |
-| TASK-CLCH-MAT-002 | 16-Week Core Material Matrix | planned | not created |
-| TASK-CLCH-MAT-003 | Textbook-To-Theme Source Map | planned | not created |
-| TASK-CLCH-PROMPT-001 | Student CNKI Prompt Assignment Contract | planned | not created |
-| TASK-CLCH-LESSON-001 | Week 1 Lesson Skeleton | planned | not created |
-| TASK-CLCH-ASSESS-001 | Assessment And Rubric Boundary | planned | not created |
-| TASK-CLCH-EXPORT-001 | Export Packaging Contract | planned | not created |
+| TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap | completed | `TASK_CARDS/TASK-CLCH-GOV-001_Classical_Chinese_Course_Boundary_Bootstrap.md`; governance record: `GOVERNANCE/TASK-CLCH-GOV-001_Classical_Chinese_Course_Boundary_Bootstrap.md`; closeout: `CLOSEOUTS/TASK-CLCH-GOV-001_Closeout.md` |
+| TASK-CLCH-MAT-001 | Knowledge Map Extraction | next | task card not yet created |
+| TASK-CLCH-MAT-002 | 16-Session Core Material Matrix | planned | task card not yet created |
+| TASK-CLCH-DES-001 | 16-Week Course Architecture | planned | task card not yet created |
+| TASK-CLCH-DES-002 | Unit Template And Lesson Design Contract | planned | task card not yet created |
+| TASK-CLCH-AI-001 | AI/Vibecoding Learning Activity Boundary | planned | task card not yet created |
+| TASK-CLCH-ASSESS-001 | Assessment And Assignment Framework | planned | task card not yet created |
 
 Only a task with an approved card and matching `TASK_STATE.json` may be executed.
 
 `TASK-LPW-GOV-002`, `TASK-LPW-GOV-003`, and `TASK-LPW-GOV-004` are completed governance tasks. The next task must receive its own approved authorization before execution.
 
-Route pointer result: `TASK-CLCH-GOV-000 | Classical Chinese Course Roadmap And Task Registry` is completed, and `TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap` is the next pending course-governance task.
+Route pointer result: `TASK-CLCH-GOV-000 | Classical Chinese Course Roadmap And Task Registry` and `TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap` are completed, and `TASK-CLCH-MAT-001 | Knowledge Map Extraction` is the next course task.
