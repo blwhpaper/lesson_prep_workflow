@@ -2,8 +2,8 @@
   "repo": "lesson_prep_workflow",
   "project_type": "lesson_prep_workflow_repo",
   "current_course": "classical_chinese",
-  "current_task": "TASK-CLCH-GOV-004",
-  "current_task_title": "Task Routing And Naming Convention Contract",
+  "current_task": "TASK-CLCH-GOV-005",
+  "current_task_title": "Merge Legacy Classical Chinese Translation Route Into Formal Course Route",
   "current_status": "completed",
   "status": "completed",
   "next_task": "TASK-CLCH-MAT-001",
@@ -17,9 +17,10 @@
     "TASK-CLCH-GOV-001",
     "TASK-CLCH-GOV-002",
     "TASK-CLCH-GOV-003",
-    "TASK-CLCH-GOV-004"
+    "TASK-CLCH-GOV-004",
+    "TASK-CLCH-GOV-005"
   ],
   "fail_closed": true,
   "cross_repo_reference": "read_only",
-  "last_updated": "2026-06-11"
+  "last_updated": "2026-06-12"
 }

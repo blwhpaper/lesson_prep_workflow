@@ -27,6 +27,8 @@ Use task-card and governance filenames in the form `TASK-CLCH-<TYPE>-<NNN>_<Titl
 Use closeout filenames in the form `CLOSEOUTS/TASK-CLCH-<TYPE>-<NNN>_Closeout.md`.
 
 Do not drift into `BTC_WATCHFLOW`, `NESP`, `Lin Yutang paper`, `Thesis_Format_Fixer`, or `daily-review`.
+Treat `COURSES/classical_chinese` as the only formal course route.
+Treat `COURSES/classical_chinese/LEGACY_IMPORTS/classical_chinese_translation` as isolated legacy material only, not an active route or source of truth.
 Do not generate lessons, slides, question banks, papers, or formal classroom materials during governance tasks.
 Do not generate a full course, full PPT set, or full question bank unless the active task family and task card explicitly authorize that scope.
 Do not reproduce long copyrighted textbook passages.
@@ -34,5 +36,6 @@ Preserve the source-authority ladder `L0 repo governance -> L1 course boundary/r
 Require source fields when available: `source_title`, `source_type`, `source_author_or_editor`, `source_level`, `chapter_or_section`, `page_or_location_if_available`, `extraction_method`, `copyright_risk`, `classroom_use_scope`.
 Treat NotebookLM output as `L3` extraction notes only, never as final publishable prose.
 If source, locator metadata, or copyright risk is unclear, fail closed and keep output at summary, index, locator, or labeled draft level.
-Keep `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE_LOG` aligned. After `TASK-CLCH-GOV-004`, the next route is `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
+Keep `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE_LOG` aligned. After `TASK-CLCH-GOV-005`, the next route is `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
+Ignore `LEGACY_IMPORTS/classical_chinese_translation` for `TASK-CLCH-MAT-*`, `TASK-CLCH-LESSON-*`, and `TASK-CLCH-ASSESS-*` unless a task card explicitly authorizes audited legacy use.
 Return branch, changed files, summary, acceptance results, and risks.

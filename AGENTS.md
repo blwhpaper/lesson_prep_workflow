@@ -66,5 +66,7 @@ Required operating rules:
 - Require these source fields on future source-derived artifacts when available: `source_title`, `source_type`, `source_author_or_editor`, `source_level`, `chapter_or_section`, `page_or_location_if_available`, `extraction_method`, `copyright_risk`, `classroom_use_scope`.
 - If source identity, locator metadata, or copyright risk is unclear, fail closed and keep output at summary, index, or draft level only. AI-generated wording must stay labeled `draft`, `synthetic`, or `teacher-review-required`.
 - Keep route pointers aligned across `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE_LOG`.
-- After `TASK-CLCH-GOV-004`, the next route must be `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
+- `COURSES/classical_chinese` is the only formal Classical Chinese course route.
+- `COURSES/classical_chinese/LEGACY_IMPORTS/classical_chinese_translation` is an isolated legacy archive only, not a course entry, and must be ignored by `TASK-CLCH-MAT-*`, `TASK-CLCH-LESSON-*`, and `TASK-CLCH-ASSESS-*` unless the active task card explicitly authorizes audited legacy use.
+- After `TASK-CLCH-GOV-005`, tasks `TASK-CLCH-GOV-000` through `TASK-CLCH-GOV-005` are completed and the next route must be `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
 - End each governed task response with the current branch, changed files, protocol or rule summary, acceptance-command results, and risks or unfinished items.
