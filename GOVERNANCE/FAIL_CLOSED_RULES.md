@@ -9,5 +9,8 @@ Stop promotion or generation and mark `needs human review` when any of these is 
 - cross-course ownership;
 - cross-repository authorization;
 - assessment suitability.
+- required SOT, task card, or state-file consistency.
 
 Fail-closed action: preserve the artifact at its current level, record the uncertainty, avoid downstream use, and request human review. Silence and plausible inference are not approval.
+
+NotebookLM draft / extracted / unverified output must remain below source-audited status until the required evidence chain exists.

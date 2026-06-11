@@ -12,6 +12,8 @@ Artifacts move forward only through documented review:
 
 Each promotion must retain provenance, reviewer decision, maturity level, and unresolved risks. A downstream artifact may depend only on inputs permitted by the maturity model.
 
+Repository architecture must preserve the distinction between workflow governance, shared reusable patterns, course instance scaffold, course-specific SOT, material database maturity, NotebookLM intake/review, source audit, and assessment audit.
+
 ## State Changes
 
 Update state, plan/index, changelog, and closeout consistently. Never infer task completion from file existence alone.
