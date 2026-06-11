@@ -22,6 +22,8 @@ NotebookLM output is always raw output, not formal course material. Formal mater
 3. course adaptation;
 4. assessment suitability check.
 
+Prompts are workflow inputs only. They are not approved lesson plans, question banks, textbooks, course outcomes, or publishable course artifacts by themselves.
+
 ## Canonical Workflow
 
 `source intake -> source audit -> material database -> course adaptation -> lesson pathway -> lesson plan -> student task -> assessment -> course closeout/reuse`
@@ -42,3 +44,4 @@ The repository architecture must keep these layers distinct:
 8. assessment audit.
 
 NotebookLM output begins below source-audited status and may not bypass the material maturity chain. Public publication boundaries are governed separately and must exclude copyrighted full text, unauthorized scans, student privacy, and internal sensitive artifacts.
+Prompt and NotebookLM governance must also preserve input scope, forbidden-input boundaries, review gates, and publication boundaries as explicit repository metadata.

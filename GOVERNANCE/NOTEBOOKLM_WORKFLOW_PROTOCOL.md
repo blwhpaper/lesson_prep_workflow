@@ -4,7 +4,19 @@ NotebookLM may support source indexing, knowledge maps, candidate material extra
 
 Each course may keep prompts in `NOTEBOOKLM/PROMPTS/` and raw output in `NOTEBOOKLM/OUTPUTS/`. Prompts and outputs must be saved in those locations before review.
 
+Prompt records are input contracts only. They must at minimum record `purpose`, `source_scope`, `forbidden_inputs`, `expected_output`, `maturity_label`, `review_gate`, and `publication_boundary`.
+
+Every NotebookLM intake saved to the repository must record source package, included input scope, excluded input scope, copyright status, privacy presence, unauthorized-full-text status, and whether public release is allowed.
+
 Every saved NotebookLM output must be labeled `draft`, `extracted`, or `unverified`. It must not be relabeled as source-audited, course-core, lesson-ready, or assessment-ready by implication.
+
+Before NotebookLM-derived output enters governed reuse or promotion, record review decisions for:
+
+1. source check;
+2. copyright check;
+3. privacy check;
+4. pedagogical fit check;
+5. human promotion decision.
 
 Before output enters a material database, review:
 
