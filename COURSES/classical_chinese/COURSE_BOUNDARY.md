@@ -9,7 +9,7 @@
 - course format: 16 weeks, 2 class hours per week
 - course goal: build foundational Ancient Chinese competence that supports translation studies and translation practice
 - current stage: governance boundary bootstrap only
-- current stage detail: cross-agent entry governance is required before source-authority governance and before material extraction
+- current stage detail: source-authority and copyright governance must complete before task-routing governance and before material extraction
 
 ## learner_profile
 
@@ -30,6 +30,45 @@
 - no course content may be supplemented from memory, generic internet summaries, or undeclared external repositories
 - later source extraction must remain traceable by work unit, source identity, and locator metadata
 - agents must not ask for or reproduce long copyrighted passages from these works
+
+## source_authority_ladder
+
+- `L0` repo governance SoT:
+  - repository-level governance files define the workflow, fail-closed default, and promotion gates
+- `L1` official course boundary / roadmap / task registry:
+  - course-line scope, route order, and authorized task stage for `classical_chinese`
+- `L2` uploaded textbook / reference corpus metadata:
+  - declared textbook or reference source identity and locator metadata for user-authorized materials
+- `L3` NotebookLM extraction notes:
+  - raw extraction notes, indexing hints, outline fragments, and source-location leads only
+- `L4` agent-generated summaries / matrices / drafts:
+  - structured notes, source maps, summaries, matrices, and draft governance artifacts derived from higher levels
+- `L5` classroom-facing deliverables:
+  - lesson-facing, classroom-facing, or student-facing outputs allowed only after maturity gates outside this task
+- promotion rule:
+  - lower-authority levels may organize, summarize, or route higher-authority inputs, but may not replace them
+- non-substitution rule:
+  - `L3` NotebookLM notes and `L4` agent drafts must never be treated as textbook equivalents or final classroom content
+
+## mandatory_source_fields
+
+- `source_title`
+- `source_type`
+- `source_author_or_editor`
+- `source_level`
+- `chapter_or_section`
+- `page_or_location_if_available`
+- `extraction_method`
+- `copyright_risk`
+- `classroom_use_scope`
+
+## source_handling_rules
+
+- every future source-derived artifact for this course line must preserve the mandatory source fields whenever the data exists
+- if chapter, section, page, or equivalent locator is missing, the artifact must carry a pending-verification marker
+- `source_level` must match the source-authority ladder and may not be silently upgraded
+- `extraction_method` must distinguish at least direct teacher note, manual source audit, NotebookLM extraction, or agent-generated synthesis
+- any AI-generated derivative content must be marked `draft`, `synthetic`, or `teacher-review-required`
 
 ## cross_agent_entry_boundary
 
@@ -74,8 +113,11 @@
 ## NotebookLM_boundary
 
 - NotebookLM output is raw intake support only
+- NotebookLM output belongs to `L3` in the source-authority ladder
 - this task does not claim that NotebookLM extraction has been completed
 - this task does not create or simulate NotebookLM output
+- NotebookLM output may be used only for extraction leads, structural hints, and intermediate indexing
+- NotebookLM output must not be treated as final publishable prose, formal handout text, or approved classroom-facing wording
 - future NotebookLM work must first support:
   - `TASK-CLCH-MAT-001 | Knowledge Map Extraction`
   - `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix`
@@ -100,6 +142,9 @@
 - textbook uploads authorize governed private extraction workflow only; they do not authorize public redistribution
 - any future excerpt must remain short, traceable, and justified by the relevant task boundary
 - unauthorized full-text reuse, scan redistribution, or implicit reconstruction of textbook chapters is forbidden
+- allowed handling includes short quotation, summary, paraphrase, structured index, classroom-use note, page or chapter locator, knowledge-point mapping, and teacher-only preparation draft
+- forbidden handling includes large-scale copying, substitute-textbook lecture notes, downloadable reconstructed textbook packets, source-free stitched prose, and promotion of NotebookLM output as final publishable content
+- when copyright risk is unclear, output may stay at summary or index level only
 
 ## output_maturity_boundary
 
@@ -118,6 +163,10 @@
   - whether a requested output belongs to governance, material, design, or assessment stage
   - whether an AI/vibecoding activity is method-layer support or an improper content substitute
   - whether copyright or publication permission covers the requested excerpt or export
+- do not upgrade an unknown source into formal course material
+- if page, chapter, section, or equivalent location is unknown, mark `pending verification` and do not present the text as source-stable
+- if copyright risk is unknown, output only summary, locator, or index form and do not output long text
+- AI-generated content must remain labeled `draft`, `synthetic`, or `teacher-review-required` until human review promotes it
 - when fail-closed triggers occur, preserve the artifact at governance or draft level and do not promote downstream use
 - when `TASK_STATE`, `ROADMAP`, `TASK_REGISTRY`, the requested `TASK-CLCH-*`, or the current branch conflict, stop immediately and report `needs human review`
 
@@ -132,11 +181,14 @@
 - long textbook quotations
 - fabricated claims that knowledge extraction is already complete
 - AI/vibecoding-centered syllabus that sidelines Ancient Chinese core knowledge
+- NotebookLM output presented as final classroom prose
+- substitute-textbook handouts or reconstructed complete teaching packets
 - cross-project governance or content drift into `BTC_WATCHFLOW`, `NESP`, `Lin Yutang paper`, `Thesis_Format_Fixer`, or `daily-review`
 
 ## allowed_next_outputs
 
 - governed task cards and governance records
+- source-authority metadata templates and review rules
 - knowledge-map extraction contract
 - `16-session core material matrix` contract
 - unit-architecture and lesson-design contracts after material maturity gates are satisfied

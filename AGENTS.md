@@ -51,6 +51,9 @@ Required operating rules:
 - Do not drift into `BTC_WATCHFLOW`, `NESP`, `Lin Yutang paper`, `Thesis_Format_Fixer`, or `daily-review`.
 - Do not generate lesson plans, slides, question banks, papers, or formal classroom materials during governance-only tasks.
 - Treat Wang Li, Guo Xiliang, Qiu Xigui, and related textbook packages as user-authorized or NotebookLM-extracted source inputs only. Do not reproduce long copyrighted passages.
+- Preserve the Classical Chinese source-authority ladder `L0 repo governance -> L1 course boundary/roadmap/registry -> L2 textbook/reference metadata -> L3 NotebookLM extraction notes -> L4 agent-generated drafts -> L5 classroom-facing deliverables`.
+- Require these source fields on future source-derived artifacts when available: `source_title`, `source_type`, `source_author_or_editor`, `source_level`, `chapter_or_section`, `page_or_location_if_available`, `extraction_method`, `copyright_risk`, `classroom_use_scope`.
+- If source identity, locator metadata, or copyright risk is unclear, fail closed and keep output at summary, index, or draft level only. AI-generated wording must stay labeled `draft`, `synthetic`, or `teacher-review-required`.
 - End each governed task response with the current branch, changed files, protocol or rule summary, acceptance-command results, and risks or unfinished items.
 
 ## Classical Chinese Cross-Agent Entry Override
@@ -80,4 +83,7 @@ Required operating rules:
 - Do not drift into `BTC_WATCHFLOW`, `NESP`, `Lin Yutang paper`, `Thesis_Format_Fixer`, or `daily-review`.
 - Do not generate lesson plans, slides, question banks, papers, or formal classroom materials during governance-only tasks.
 - Treat Wang Li, Guo Xiliang, Qiu Xigui, and related textbook packages as user-authorized or NotebookLM-extracted source inputs only. Do not reproduce long copyrighted passages.
+- Preserve the Classical Chinese source-authority ladder `L0 repo governance -> L1 course boundary/roadmap/registry -> L2 textbook/reference metadata -> L3 NotebookLM extraction notes -> L4 agent-generated drafts -> L5 classroom-facing deliverables`.
+- Require these source fields on future source-derived artifacts when available: `source_title`, `source_type`, `source_author_or_editor`, `source_level`, `chapter_or_section`, `page_or_location_if_available`, `extraction_method`, `copyright_risk`, `classroom_use_scope`.
+- If source identity, locator metadata, or copyright risk is unclear, fail closed and keep output at summary, index, or draft level only. AI-generated wording must stay labeled `draft`, `synthetic`, or `teacher-review-required`.
 - End each governed task response with the current branch, changed files, protocol or rule summary, acceptance-command results, and risks or unfinished items.

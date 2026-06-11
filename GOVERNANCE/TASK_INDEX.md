@@ -11,7 +11,8 @@
 | TASK-CLCH-GOV-000 | Classical Chinese Course roadmap and task registry | completed | `TASK_CARDS/TASK-CLCH-GOV-000_Classical_Chinese_Course_Roadmap_And_Task_Registry.md`; governance record: `GOVERNANCE/TASK-CLCH-GOV-000_Classical_Chinese_Course_Roadmap_And_Task_Registry.md`; closeout: `CLOSEOUTS/TASK-CLCH-GOV-000_Closeout.md` |
 | TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap | completed | `TASK_CARDS/TASK-CLCH-GOV-001_Classical_Chinese_Course_Boundary_Bootstrap.md`; governance record: `GOVERNANCE/TASK-CLCH-GOV-001_Classical_Chinese_Course_Boundary_Bootstrap.md`; closeout: `CLOSEOUTS/TASK-CLCH-GOV-001_Closeout.md` |
 | TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course | completed | `TASK_CARDS/TASK-CLCH-GOV-002_Cross_Agent_Entry_Protocol_For_Classical_Chinese_Course.md`; governance record: `GOVERNANCE/TASK-CLCH-GOV-002_Cross_Agent_Entry_Protocol_For_Classical_Chinese_Course.md`; closeout: `CLOSEOUTS/TASK-CLCH-GOV-002_Closeout.md` |
-| TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary | next | task card not yet created |
+| TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary | completed | `TASK_CARDS/TASK-CLCH-GOV-003_Classical_Chinese_Source_Authority_And_Copyright_Boundary.md`; governance record: `GOVERNANCE/TASK-CLCH-GOV-003_Classical_Chinese_Source_Authority_And_Copyright_Boundary.md`; closeout: `CLOSEOUTS/TASK-CLCH-GOV-003_Closeout.md` |
+| TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract | next | task card not yet created |
 | TASK-CLCH-MAT-001 | Knowledge Map Extraction | planned | task card not yet created |
 | TASK-CLCH-MAT-002 | 16-Session Core Material Matrix | planned | task card not yet created |
 | TASK-CLCH-DES-001 | 16-Week Course Architecture | planned | task card not yet created |
@@ -23,4 +24,4 @@ Only a task with an approved card and matching `TASK_STATE.json` may be executed
 
 `TASK-LPW-GOV-002`, `TASK-LPW-GOV-003`, and `TASK-LPW-GOV-004` are completed governance tasks. The next task must receive its own approved authorization before execution.
 
-Route pointer result: `TASK-CLCH-GOV-000 | Classical Chinese Course Roadmap And Task Registry`, `TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap`, and `TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course` are completed, and `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary` is the next course task.
+Route pointer result: `TASK-CLCH-GOV-000 | Classical Chinese Course Roadmap And Task Registry`, `TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap`, `TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course`, and `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary` are completed, and `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract` is the next course task.

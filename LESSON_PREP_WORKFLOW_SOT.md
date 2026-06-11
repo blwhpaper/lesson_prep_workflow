@@ -24,6 +24,14 @@ NotebookLM output is always raw output, not formal course material. Formal mater
 
 Prompts are workflow inputs only. They are not approved lesson plans, question banks, textbooks, course outcomes, or publishable course artifacts by themselves.
 
+For `COURSES/classical_chinese`, source authority and copyright review must also preserve:
+
+- source-authority level;
+- locator metadata such as chapter, section, page, or equivalent location;
+- extraction method and review status;
+- copyright risk and classroom-use scope;
+- draft labeling for any AI-generated derivative artifact.
+
 ## Canonical Workflow
 
 `source intake -> source audit -> material database -> course adaptation -> lesson pathway -> lesson plan -> student task -> assessment -> course closeout/reuse`
@@ -68,6 +76,7 @@ Prompt and NotebookLM governance must also preserve input scope, forbidden-input
 - The first material-design gate for this course is not lesson drafting. The required next route is:
   - `TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course`
   - `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary`
+  - `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract`
   - `TASK-CLCH-MAT-001 | Knowledge Map Extraction`
   - `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix`
   - only then may teaching-design tasks begin
@@ -95,3 +104,5 @@ When the operator says `TASK-CLCH-XXX 开工`, the active agent must use the Cla
 - Do not drift into `BTC_WATCHFLOW`, `NESP`, `Lin Yutang paper`, `Thesis_Format_Fixer`, or `daily-review`.
 - Do not generate lesson plans, slides, question banks, papers, or formal classroom materials during governance-only tasks.
 - Textbook packages by Wang Li, Guo Xiliang, Qiu Xigui, and related authors remain governed source inputs only and may not be reproduced in long copyrighted form.
+- For this course line, source-authority governance must use the ladder `L0 repo governance SoT -> L1 course boundary / roadmap / registry -> L2 textbook or reference corpus metadata -> L3 NotebookLM extraction notes -> L4 agent-generated summaries / matrices / drafts -> L5 classroom-facing deliverables`.
+- If source identity, locator metadata, copyright risk, or publication scope is unclear, fail closed and keep the artifact at summary, index, or draft level only.

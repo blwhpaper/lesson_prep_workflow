@@ -31,3 +31,7 @@
 - Added the `TASK-CLCH-XXX 开工` entry rule, minimum read order, anti-drift exclusions, fail-closed checks, and required response footer for the Classical Chinese course line.
 - Added optional agent-facing protocol files for `AGENTS.md`, `GEMINI.md`, and Cursor rule guidance.
 - Corrected the next pointer so the route advances to `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary` instead of jumping directly to `TASK-CLCH-MAT-001`.
+- Completed `TASK-CLCH-GOV-003` and formalized the Classical Chinese source-authority ladder from `L0` governance SoT through `L5` classroom-facing deliverables.
+- Added mandatory source fields, NotebookLM non-substitution rules, copyright boundary rules, and fail-closed promotion limits for source-derived work.
+- Updated the course boundary, roadmap, registry, SoT, operator guidance, and agent-entry rules so future tasks preserve source level, locator metadata, extraction method, copyright risk, and classroom-use scope.
+- Advanced the course-line pointer to `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract`.
