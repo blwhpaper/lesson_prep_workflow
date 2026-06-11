@@ -1,0 +1,11 @@
+{
+  "repo": "lesson_prep_workflow",
+  "project_type": "lesson_prep_workflow_repo",
+  "current_course": "classical_chinese_translation",
+  "current_task": "TASK-LPW-GOV-001",
+  "status": "in_progress",
+  "next_task": "TASK-LPW-GOV-002",
+  "fail_closed": true,
+  "cross_repo_reference": "read_only",
+  "last_updated": "2026-06-11"
+}

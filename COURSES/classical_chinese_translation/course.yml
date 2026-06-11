@@ -1,0 +1,12 @@
+course_id: classical_chinese_translation
+course_title: 古代汉语与翻译理解
+course_type: undergraduate_course
+audience: translation_major_undergraduates
+duration_weeks: 16
+hours_per_week: 2
+status: active
+workflow_stage: bootstrap
+current_task: TASK-CLCH-GOV-001
+source_policy: source_audit_required
+notebooklm_policy: raw_output_only_until_reviewed
+assessment_policy: audited_materials_only

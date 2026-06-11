@@ -1,0 +1,13 @@
+{
+  "course": "classical_chinese_translation",
+  "course_title": "古代汉语与翻译理解",
+  "current_task": "TASK-CLCH-GOV-001",
+  "status": "not_started",
+  "next_task": "TASK-CLCH-MAT-001",
+  "notebooklm_stage": "not_started",
+  "material_database_stage": "not_started",
+  "course_design_stage": "not_started",
+  "assessment_stage": "not_started",
+  "fail_closed": true,
+  "last_updated": "2026-06-11"
+}
