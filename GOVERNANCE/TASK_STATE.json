@@ -3,8 +3,10 @@
   "project_type": "lesson_prep_workflow_repo",
   "current_course": "classical_chinese_translation",
   "current_task": "TASK-LPW-GOV-003",
+  "current_task_title": "Architecture Hardening Patch",
   "status": "not_started",
   "next_task": "TASK-LPW-GOV-004",
+  "next_task_title": "Prompt Governance And NotebookLM Intake Contract",
   "completed_tasks": [
     "TASK-LPW-GOV-002"
   ],

@@ -44,3 +44,11 @@ Keep the current architecture and fail-closed controls. Next, strengthen the ext
 ## Human Review Recommendation
 
 Yes. The patch is ready for human review, especially for acceptance of the proposed follow-up sequencing and governance boundaries.
+
+## Route Pointer Correction
+
+The post-closeout governance route is explicitly:
+
+`TASK-LPW-GOV-002` completed -> `TASK-LPW-GOV-003 | Architecture Hardening Patch` current/not started -> `TASK-LPW-GOV-004 | Prompt Governance And NotebookLM Intake Contract` next.
+
+The source-audit and NotebookLM review title must not replace the Architecture Hardening Patch title. That work may be retained only under a later authorized task; this correction does not create or execute the `TASK-LPW-GOV-003` body.

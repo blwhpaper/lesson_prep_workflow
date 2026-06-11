@@ -9,4 +9,8 @@
 
 `TASK-LPW-GOV-*` governs the repository. `TASK-CLCH-*` belongs to the current course instance. `TASK-LPW-GOV-001` creates shells only and does not advance any `TASK-CLCH-*` task.
 
-The next active governance task is `TASK-LPW-GOV-003`. Completion of `TASK-LPW-GOV-002` does not advance a course task or change the active course.
+The corrected governance route is:
+
+`TASK-LPW-GOV-002` completed -> `TASK-LPW-GOV-003 | Architecture Hardening Patch` current/not started -> `TASK-LPW-GOV-004 | Prompt Governance And NotebookLM Intake Contract` next.
+
+This route correction does not authorize execution of `TASK-LPW-GOV-003`, advance a course task, or change the active course.
