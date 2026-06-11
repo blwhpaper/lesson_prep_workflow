@@ -35,3 +35,8 @@
 - Added mandatory source fields, NotebookLM non-substitution rules, copyright boundary rules, and fail-closed promotion limits for source-derived work.
 - Updated the course boundary, roadmap, registry, SoT, operator guidance, and agent-entry rules so future tasks preserve source level, locator metadata, extraction method, copyright risk, and classroom-use scope.
 - Advanced the course-line pointer to `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract`.
+- Completed `TASK-CLCH-GOV-004` and formalized the Classical Chinese task-family routing contract for `GOV`, `MAT`, `PROMPT`, `LESSON`, `ASSESS`, and `REVIEW`.
+- Added branch, task-card, governance-record, and closeout naming conventions for the `TASK-CLCH-*` namespace.
+- Hardened anti-drift routing so `TASK-CLCH-*` work stays inside `COURSES/classical_chinese` and does not spill into unrelated project lines.
+- Updated boundary, roadmap, registry, SoT, operator guidance, and agent-entry files to keep route pointers synchronized across `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE_LOG`.
+- Advanced the course-line pointer to `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.

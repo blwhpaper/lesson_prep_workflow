@@ -26,6 +26,21 @@ The Classical Chinese governance header must remain explicit:
 - task family: `TASK-CLCH-*`
 - fail-closed default: `true`
 
+The agent must normalize the requested Classical Chinese task into one of these route families before acting:
+
+- `TASK-CLCH-GOV-*` for governance, boundary, routing, protocol, index, and agent constraints only
+- `TASK-CLCH-MAT-*` for material extraction and material mapping below lesson level
+- `TASK-CLCH-PROMPT-*` for NotebookLM and multi-agent prompt packs or extraction prompt workflows
+- `TASK-CLCH-LESSON-*` for lesson plans, classroom activities, handouts, and PPT structure
+- `TASK-CLCH-ASSESS-*` for homework, quizzes, rubrics, and student-output evaluation
+- `TASK-CLCH-REVIEW-*` for retrospective, quality review, and version audit
+
+The agent must also preserve the naming contract:
+
+- branch format: `task-clch-<type>-<number>-<kebab-title>`
+- task-card and governance filename format: `TASK-CLCH-<TYPE>-<NNN>_<Title_Case_With_Underscores>.md`
+- closeout filename format: `CLOSEOUTS/TASK-CLCH-<TYPE>-<NNN>_Closeout.md`
+
 The agent must also keep reads minimal:
 
 - read only the files required for the current `TASK-CLCH-*`
@@ -34,6 +49,7 @@ The agent must also keep reads minimal:
 - do not drift into `BTC_WATCHFLOW`, `NESP`, `Lin Yutang paper`, `Thesis_Format_Fixer`, or `daily-review`
 
 The agent must not generate lesson plans, slides, handouts, question banks, papers, or formal classroom materials during governance-only tasks.
+The agent must not generate a full course, full PPT set, or full question bank unless the active task family and task card explicitly authorize that scope.
 
 Authorized textbook packages by Wang Li, Guo Xiliang, Qiu Xigui, and related authors are source inputs only. Agents must not reproduce long copyrighted passages or treat NotebookLM output as approved course material.
 
@@ -58,5 +74,7 @@ If source identity, locator metadata, or copyright risk is unclear, the agent mu
 For this course line, the required pre-design route is:
 
 `TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course` -> `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary` -> `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract` -> `TASK-CLCH-MAT-001 | Knowledge Map Extraction` -> `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix` -> design-stage tasks
+
+Keep `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE_LOG` aligned. After `TASK-CLCH-GOV-004`, the next route is `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
 
 Do not skip from boundary governance to lesson generation. AI/vibecoding belongs only to later method-layer activity design and must not replace the Ancient Chinese knowledge core.

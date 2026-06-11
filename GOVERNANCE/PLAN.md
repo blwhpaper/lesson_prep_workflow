@@ -23,7 +23,7 @@ This route is independent from `classical_chinese_translation` and remains in go
 
 Current course-line route:
 
-`TASK-CLCH-GOV-000` completed -> `TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap` completed -> `TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course` completed -> `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary` completed -> `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract` next -> `TASK-CLCH-MAT-001 | Knowledge Map Extraction` planned -> `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix` planned -> `TASK-CLCH-DES-001 | 16-Week Course Architecture` planned -> `TASK-CLCH-DES-002 | Unit Template And Lesson Design Contract` planned -> `TASK-CLCH-AI-001 | AI/Vibecoding Learning Activity Boundary` planned -> `TASK-CLCH-ASSESS-001 | Assessment And Assignment Framework` planned
+`TASK-CLCH-GOV-000` completed -> `TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap` completed -> `TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course` completed -> `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary` completed -> `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract` completed -> `TASK-CLCH-MAT-001 | Knowledge Map Extraction` next -> `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix` planned -> `TASK-CLCH-LESSON-001 | 16-Week Course Architecture` planned -> `TASK-CLCH-LESSON-002 | Unit Template And Lesson Design Contract` planned -> `TASK-CLCH-PROMPT-001 | NotebookLM And Agent Prompt Pack Contract` planned -> `TASK-CLCH-ASSESS-001 | Assessment And Assignment Framework` planned -> `TASK-CLCH-REVIEW-001 | Course Retrospective And Quality Review` planned
 
 No formal lesson production has begun for `classical_chinese`.
 
@@ -32,3 +32,5 @@ NotebookLM output for this course line must pass intake and citation-boundary co
 `TASK-CLCH-GOV-002` is governance-only. It standardizes the entry contract for Codex, Cursor, Antigravity, Claude, Gemini, and similar agents, and it does not authorize lesson drafting or material extraction.
 
 `TASK-CLCH-GOV-003` is governance-only. It defines the Classical Chinese source-authority ladder, mandatory source fields, NotebookLM non-substitution rule, copyright boundary, and fail-closed promotion limits for future source-derived artifacts.
+
+`TASK-CLCH-GOV-004` is governance-only. It defines the Classical Chinese task-family routing contract, branch and filename conventions, anti-drift naming rules, and cross-file pointer consistency rules. The next task after it is `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
