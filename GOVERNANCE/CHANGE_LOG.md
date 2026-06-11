@@ -18,3 +18,6 @@
 - Formalized prompt metadata requirements, NotebookLM intake metadata, five-part review gates, and fail-closed publication boundaries.
 - Kept prompts classified as input contracts only and NotebookLM output classified as `draft` / `extracted` / `unverified` by default.
 - Completed `TASK-LPW-GOV-004` and moved `TASK-LPW-GOV-005` to `placeholder / needs_task_definition`.
+- Completed `TASK-CLCH-GOV-000` and registered a separate `COURSES/classical_chinese` governance shell.
+- Added the Classical Chinese roadmap, task registry, and course-boundary guardrails.
+- Routed the new course line through NotebookLM intake and maturity controls before any lesson production.
