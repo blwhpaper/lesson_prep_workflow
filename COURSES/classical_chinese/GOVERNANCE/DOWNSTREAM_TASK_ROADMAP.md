@@ -13,12 +13,12 @@ Future downstream tasks must first read `COURSES/classical_chinese/GOVERNANCE/DO
 - `TASK-CLCH-GOV-006` = historical downstream hardening baseline
 - `TASK-CLCH-GOV-007` = historical downstream sequence optimization and competency-matrix boundary patch
 - `TASK-CLCH-GOV-008` = latest downstream registry realignment to the four-batch lesson build route
-- next executable downstream route = `TASK-CLCH-LESSON-001 | 16-Week Course Architecture And Competency Matrix Boundary`
+- next executable downstream route = `TASK-CLCH-PROMPT-001 | NotebookLM Extraction Prompt Pack`
 
 ## Latest Downstream Sequence
 
-1. `TASK-CLCH-LESSON-001` | 16-Week Course Architecture And Competency Matrix Boundary | `next`
-2. `TASK-CLCH-PROMPT-001` | NotebookLM Extraction Prompt Pack | `pending`
+1. `TASK-CLCH-LESSON-001` | 16-Week Course Architecture And Competency Matrix Boundary | `completed`
+2. `TASK-CLCH-PROMPT-001` | NotebookLM Extraction Prompt Pack | `next`
 3. `TASK-CLCH-LESSON-002` | Session Package Template, Source Evidence Contract And Build Standard | `pending`
 4. `TASK-CLCH-ASSESS-001` | Assessment Framework And Translation Practice Rubrics | `pending`
 5. `TASK-CLCH-AI-001` | Student AI/Vibecoding Activity Protocol | `pending`

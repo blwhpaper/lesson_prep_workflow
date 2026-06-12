@@ -95,3 +95,10 @@
 - Updated `AGENTS.md`, `GEMINI.md`, `docs/OPERATOR_GUIDE.md`, `COURSES/classical_chinese/ROADMAP.md`, `COURSES/classical_chinese/TASK_REGISTRY.md`, `COURSES/classical_chinese/COURSE_BOUNDARY.md`, `GOVERNANCE/PLAN.md`, `GOVERNANCE/TASK_STATE.json`, and `GOVERNANCE/TASK_INDEX.md` so future agents must read the new realignment file before the older downstream roadmap layers.
 - Set the next task to `TASK-CLCH-LESSON-001 | 16-Week Course Architecture And Competency Matrix Boundary`.
 - Did not generate lesson正文, PPT, 题库, 课堂材料, 翻译材料, or student assignment bodies.
+- Completed `TASK-CLCH-LESSON-001` and created `COURSES/classical_chinese/LESSONS/COURSE_ARCHITECTURE_16_WEEKS.md` as the architecture-only bridge between the material matrix and later package-standard work.
+- Created the missing `TASK-CLCH-LESSON-001` task card and closeout during the active execution turn as required by `TASK_INDEX`.
+- Grouped the 16 sessions into five units and mapped weekly progression without generating session package prose or classroom-body text.
+- Folded the competency matrix boundary into the architecture layer as six competency domains `C1-C6` with week-level mapping and downstream inheritance rules.
+- Added assessment-boundary notes, AI and NotebookLM boundary notes, later-task acceptance inheritance, and an unresolved dependency list rather than hiding source-evidence gaps.
+- Advanced the course-line pointer to `TASK-CLCH-PROMPT-001 | NotebookLM Extraction Prompt Pack`.
+- Did not generate lesson正文, session package bodies, PPT page content, assignments, question banks, answer keys, or long textbook excerpts.
