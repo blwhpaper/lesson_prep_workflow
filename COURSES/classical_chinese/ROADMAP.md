@@ -4,7 +4,7 @@
 
 `TASK-CLCH-GOV-000` created the governance shell. `TASK-CLCH-GOV-001` hardened the course boundary. `TASK-CLCH-GOV-002` established the cross-agent entry layer. `TASK-CLCH-GOV-003` hardened source authority and copyright boundaries. `TASK-CLCH-GOV-004` locked task routing and naming conventions. `TASK-CLCH-GOV-005` retired the duplicate standalone `classical_chinese_translation` route and quarantined it under `LEGACY_IMPORTS` so future agents see only one formal course entry.
 
-This course has not yet entered approved teaching design. Governance is complete through legacy-route retirement. Material work must still begin with knowledge extraction and a `16-session core material matrix`, not with lesson prose, and it must ignore `LEGACY_IMPORTS` unless a future task card explicitly authorizes audited legacy use.
+This course has not yet entered approved teaching design. Governance is complete through legacy-route retirement, and the first material-stage artifact now exists as a governed knowledge map. The next material task is the `16-session core material matrix`, not lesson prose, and downstream work must ignore `LEGACY_IMPORTS` unless a future task card explicitly authorizes audited legacy use.
 
 ## Route
 
@@ -14,8 +14,8 @@ This course has not yet entered approved teaching design. Governance is complete
 4. `TASK-CLCH-GOV-003` | Classical Chinese Source Authority And Copyright Boundary | completed
 5. `TASK-CLCH-GOV-004` | Task Routing And Naming Convention Contract | completed
 6. `TASK-CLCH-GOV-005` | Merge Legacy Classical Chinese Translation Route Into Formal Course Route | completed
-7. `TASK-CLCH-MAT-001` | Knowledge Map Extraction | next
-8. `TASK-CLCH-MAT-002` | 16-Session Core Material Matrix | planned
+7. `TASK-CLCH-MAT-001` | Knowledge Map Extraction | completed
+8. `TASK-CLCH-MAT-002` | 16-Session Core Material Matrix | next
 9. `TASK-CLCH-LESSON-001` | 16-Week Course Architecture | planned
 10. `TASK-CLCH-LESSON-002` | Unit Template And Lesson Design Contract | planned
 11. `TASK-CLCH-PROMPT-001` | NotebookLM And Agent Prompt Pack Contract | planned
@@ -30,7 +30,7 @@ This course has not yet entered approved teaching design. Governance is complete
 - `TASK-CLCH-GOV-004` aligns task routing and naming rules before material, prompt, lesson, assessment, and review families expand
 - `TASK-CLCH-GOV-005` removes the duplicate course entry, isolates old route files under `LEGACY_IMPORTS`, and blocks legacy material from downstream use unless a future task card authorizes audited intake
 - `TASK-CLCH-MAT-001` maps the governed knowledge terrain without pretending lesson sequencing is already settled
-- `TASK-CLCH-MAT-002` must produce the `16-session core material matrix` before any teaching-design task can begin
+- `TASK-CLCH-MAT-002` must turn that knowledge terrain into the `16-session core material matrix` before any teaching-design task can begin
 - design tasks follow only after material mapping becomes structured enough for a 16-week course architecture
 - assessment comes after architecture and activity boundaries because assignments must depend on already bounded content and method choices
 - review follows once the route has enough governed artifacts to audit

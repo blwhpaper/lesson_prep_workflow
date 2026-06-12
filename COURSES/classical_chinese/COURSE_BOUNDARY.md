@@ -11,7 +11,7 @@
 - course format: 16 weeks, 2 class hours per week
 - course goal: build foundational Ancient Chinese competence that supports translation studies and translation practice
 - current stage: governance boundary bootstrap only
-- current stage detail: legacy-route retirement governance is completed; `TASK-CLCH-MAT-001 | Knowledge Map Extraction` is next
+- current stage detail: knowledge-map extraction is completed; `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix` is next
 
 ## route_identity_rule
 
@@ -172,7 +172,7 @@
 - current task outputs are governance artifacts only
 - course content maturity has not advanced through source audit, reliability grading, course adaptation, or assessment suitability review
 - no artifact produced here may be labeled lesson-ready, assessment-ready, or publication-ready
-- the next mature output target is not a lesson plan; it is a governed knowledge map and then a `16-session core material matrix`
+- the next mature output target is not a lesson plan; the governed knowledge map now exists, and the next target is the `16-session core material matrix`
 - governance tasks must not generate lesson plans, slides, question banks, papers, or formal classroom materials
 - no task may generate a full course, full PPT set, or full question bank unless the active task family and task card explicitly authorize that scope
 - route pointers across `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE_LOG` must stay aligned
