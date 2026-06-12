@@ -110,9 +110,13 @@
 - task-family routing rule:
   - `TASK-CLCH-GOV-*` = governance, boundary, routing, protocol, index, and agent constraints only
   - `TASK-CLCH-MAT-*` = material mapping, knowledge map extraction, and source-grounded material matrices below lesson level
+  - `TASK-CLCH-COMP-*` = competency matrix, assessment boundary, and acceptance-gate governance
   - `TASK-CLCH-PROMPT-*` = NotebookLM, Claude, Cursor, Codex, and similar prompt-pack or extraction-prompt workflow tasks
   - `TASK-CLCH-LESSON-*` = lesson plans, handouts, classroom activities, and PPT structure for specific lessons or units
+  - `TASK-CLCH-WORKFLOW-*` = teacher preparation workflow, artifact handoff order, and operator sequencing
   - `TASK-CLCH-ASSESS-*` = homework, quizzes, rubrics, and student-output evaluation
+  - `TASK-CLCH-QA-*` = quality audit, blocker checks, and release-gate protocol
+  - `TASK-CLCH-DELIVERY-*` = batch generation planning, delivery sequencing, and scale-up governance
   - `TASK-CLCH-REVIEW-*` = retrospective, quality review, and version audit
 - naming rule:
   - branch format = `task-clch-<type>-<number>-<kebab-title>`

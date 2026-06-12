@@ -78,3 +78,12 @@
 - Added anti-drift rules against turning the course into pure literary history, pure linguistic theory, or an AI tools course, and against leaking lesson-body prose into governance tasks.
 - Updated `AGENTS.md`, `GEMINI.md`, and `docs/OPERATOR_GUIDE.md` so future `TASK-CLCH-LESSON-001 开工` execution reads the downstream roadmap before acting.
 - Kept `TASK-CLCH-LESSON-001 | 16-Week Course Architecture` as the next task and did not generate any 16-week course-body content, session package prose, assignment bodies, or AI activity sheets.
+- Completed `TASK-CLCH-GOV-007` and added a latest downstream execution-order interpretation layer on top of `TASK-CLCH-GOV-006`.
+- Created `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_SEQUENCE_OPTIMIZATION.md` to define the final recommended 11-task downstream order, dependency graph, output boundaries, acceptance standards, task classes, and competency-matrix insertion rule.
+- Updated `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_ROADMAP.md` so `TASK-CLCH-GOV-006` remains historical while `TASK-CLCH-GOV-007` becomes the latest execution-order explanation layer.
+- Replaced the downstream sequence that centered on week-block package tasks with a new order centered on architecture, competency boundary, weekly blueprinting, source allocation, prompt support, sample package validation, teacher workflow, AI-task protocol, assessment evidence, QA protocol, and delivery planning.
+- Inserted `TASK-CLCH-COMP-001` as the competency-matrix and assessment-boundary gate before any lesson-package scale-up.
+- Added new downstream route placeholders for `TASK-CLCH-MAT-003`, `TASK-CLCH-WORKFLOW-001`, `TASK-CLCH-QA-001`, and `TASK-CLCH-DELIVERY-001`.
+- Updated `AGENTS.md`, `GEMINI.md`, `docs/OPERATOR_GUIDE.md`, and `COURSES/classical_chinese/COURSE_BOUNDARY.md` so future downstream Classical Chinese tasks must read both the downstream roadmap and the downstream sequence optimization file before acting.
+- Preserved `TASK-CLCH-LESSON-001 | 16-Week Course Architecture` as the next task and explicitly kept it architecture-only.
+- Did not generate any lesson-body prose, 16-week full lesson package, PPT body, question bank, translation material, or classroom-facing text.

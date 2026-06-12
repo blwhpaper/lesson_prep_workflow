@@ -14,8 +14,9 @@ For later Classical Chinese execution, when the user says `TASK-CLCH-XXX 开工`
 4. the current `TASK-CLCH-*` task card
 5. `.agents/skills/classical_chinese_course_fail_closed_audit/SKILL.md` for future Classical Chinese tasks after `TASK-CLCH-GOV-SKILL-001`
 6. `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_ROADMAP.md` for future downstream tasks after `TASK-CLCH-GOV-006`
-7. the previous `TASK-CLCH-*` closeout
-8. the current git state via `git status --short --branch`
+7. `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_SEQUENCE_OPTIMIZATION.md` for future downstream tasks after `TASK-CLCH-GOV-007`
+8. the previous `TASK-CLCH-*` closeout
+9. the current git state via `git status --short --branch`
 
 The agent must then confirm that the requested output matches the task stage. For this course line, the required pre-design route is:
 
@@ -32,9 +33,13 @@ The agent must normalize the requested Classical Chinese task into one of these 
 
 - `TASK-CLCH-GOV-*` for governance, boundary, routing, protocol, index, and agent constraints only
 - `TASK-CLCH-MAT-*` for material extraction and material mapping below lesson level
+- `TASK-CLCH-COMP-*` for competency matrix, assessment boundary, and acceptance-gate governance
 - `TASK-CLCH-PROMPT-*` for NotebookLM and multi-agent prompt packs or extraction prompt workflows
 - `TASK-CLCH-LESSON-*` for lesson plans, classroom activities, handouts, and PPT structure
+- `TASK-CLCH-WORKFLOW-*` for teacher preparation workflow, operator handoff, and sequencing
 - `TASK-CLCH-ASSESS-*` for homework, quizzes, rubrics, and student-output evaluation
+- `TASK-CLCH-QA-*` for quality audit, blocker checks, and release-gate protocol
+- `TASK-CLCH-DELIVERY-*` for batch generation planning, delivery sequencing, and scale-up governance
 - `TASK-CLCH-REVIEW-*` for retrospective, quality review, and version audit
 
 The agent must also preserve the naming contract:
@@ -82,6 +87,7 @@ Keep `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE
 Before `TASK-CLCH-MAT-001` begins, ignore `LEGACY_IMPORTS/classical_chinese_translation` unless the active task card explicitly authorizes audited legacy-material use.
 After `TASK-CLCH-GOV-SKILL-001`, future Classical Chinese tasks must read `.agents/skills/classical_chinese_course_fail_closed_audit/SKILL.md` and use it as the minimum fail-closed audit checklist before drafting or promoting source-derived or stage-sensitive outputs.
 After `TASK-CLCH-GOV-006`, future downstream tasks must read `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_ROADMAP.md` and obey its task-order, output-class, and fail-closed rules before acting.
+After `TASK-CLCH-GOV-007`, future downstream tasks must also read `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_SEQUENCE_OPTIMIZATION.md` and obey its latest execution-order, competency-boundary, and acceptance-gate rules before acting.
 `TASK-CLCH-LESSON-001` is architecture-only and must not be used to draft session package bodies, student assignments, or AI activity content.
 
 Do not skip from boundary governance to lesson generation. AI/vibecoding belongs only to later method-layer activity design and must not replace the Ancient Chinese knowledge core.
