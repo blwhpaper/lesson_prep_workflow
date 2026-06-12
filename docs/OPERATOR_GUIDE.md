@@ -13,8 +13,9 @@ For later Classical Chinese execution, when the user says `TASK-CLCH-XXX 开工`
 3. `COURSES/classical_chinese/TASK_REGISTRY.md`
 4. the current `TASK-CLCH-*` task card
 5. `.agents/skills/classical_chinese_course_fail_closed_audit/SKILL.md` for future Classical Chinese tasks after `TASK-CLCH-GOV-SKILL-001`
-6. the previous `TASK-CLCH-*` closeout
-7. the current git state via `git status --short --branch`
+6. `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_ROADMAP.md` for future downstream tasks after `TASK-CLCH-GOV-006`
+7. the previous `TASK-CLCH-*` closeout
+8. the current git state via `git status --short --branch`
 
 The agent must then confirm that the requested output matches the task stage. For this course line, the required pre-design route is:
 
@@ -75,10 +76,12 @@ If source identity, locator metadata, or copyright risk is unclear, the agent mu
 
 For this course line, the required pre-design route is:
 
-`TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course` -> `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary` -> `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract` -> `TASK-CLCH-GOV-005 | Merge Legacy Classical Chinese Translation Route Into Formal Course Route` -> `TASK-CLCH-MAT-001 | Knowledge Map Extraction` -> `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix` -> design-stage tasks
+`TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course` -> `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary` -> `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract` -> `TASK-CLCH-GOV-005 | Merge Legacy Classical Chinese Translation Route Into Formal Course Route` -> `TASK-CLCH-MAT-001 | Knowledge Map Extraction` -> `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix` -> `TASK-CLCH-GOV-SKILL-001 | Classical Chinese Course Agent Skill And Fail-Closed Audit` -> `TASK-CLCH-GOV-006 | Classical Chinese Course Downstream Task Roadmap Hardening` -> downstream design-stage tasks
 
 Keep `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE_LOG` aligned. After `TASK-CLCH-GOV-005`, the next route is `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
 Before `TASK-CLCH-MAT-001` begins, ignore `LEGACY_IMPORTS/classical_chinese_translation` unless the active task card explicitly authorizes audited legacy-material use.
 After `TASK-CLCH-GOV-SKILL-001`, future Classical Chinese tasks must read `.agents/skills/classical_chinese_course_fail_closed_audit/SKILL.md` and use it as the minimum fail-closed audit checklist before drafting or promoting source-derived or stage-sensitive outputs.
+After `TASK-CLCH-GOV-006`, future downstream tasks must read `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_ROADMAP.md` and obey its task-order, output-class, and fail-closed rules before acting.
+`TASK-CLCH-LESSON-001` is architecture-only and must not be used to draft session package bodies, student assignments, or AI activity content.
 
 Do not skip from boundary governance to lesson generation. AI/vibecoding belongs only to later method-layer activity design and must not replace the Ancient Chinese knowledge core.
