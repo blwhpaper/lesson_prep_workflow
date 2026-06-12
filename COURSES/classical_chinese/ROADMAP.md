@@ -4,7 +4,7 @@
 
 `TASK-CLCH-GOV-000` created the governance shell. `TASK-CLCH-GOV-001` hardened the course boundary. `TASK-CLCH-GOV-002` established the cross-agent entry layer. `TASK-CLCH-GOV-003` hardened source authority and copyright boundaries. `TASK-CLCH-GOV-004` locked task routing and naming conventions. `TASK-CLCH-GOV-005` retired the duplicate standalone `classical_chinese_translation` route and quarantined it under `LEGACY_IMPORTS` so future agents see only one formal course entry.
 
-This course has not yet entered approved teaching design. Governance is complete through legacy-route retirement, fail-closed skill audit insertion, downstream roadmap hardening, downstream sequence optimization, and downstream registry realignment to the four-batch lesson build route. The material stage now includes both the governed knowledge map and the governed `16-session core material matrix`. The next route is `TASK-CLCH-LESSON-001 | 16-Week Course Architecture And Competency Matrix Boundary`, and downstream work must still ignore `LEGACY_IMPORTS` unless a future task card explicitly authorizes audited legacy use.
+This course has not yet entered approved classroom-package generation. Governance is complete through legacy-route retirement, fail-closed skill audit insertion, downstream roadmap hardening, downstream sequence optimization, and downstream registry realignment to the four-batch lesson build route. The material stage now includes both the governed knowledge map and the governed `16-session core material matrix`. The architecture stage is now completed through `TASK-CLCH-LESSON-001 | 16-Week Course Architecture And Competency Matrix Boundary`, and the next route is `TASK-CLCH-PROMPT-001 | NotebookLM Extraction Prompt Pack`. Downstream work must still ignore `LEGACY_IMPORTS` unless a future task card explicitly authorizes audited legacy use.
 
 ## Route
 
@@ -20,8 +20,8 @@ This course has not yet entered approved teaching design. Governance is complete
 10. `TASK-CLCH-GOV-006` | Classical Chinese Course Downstream Task Roadmap Hardening | completed
 11. `TASK-CLCH-GOV-007` | Downstream Task Sequence Optimization And Competency Matrix Boundary Patch | completed
 12. `TASK-CLCH-GOV-008` | Downstream Task Registry Realignment To Four-Batch Lesson Build Plan | completed
-13. `TASK-CLCH-LESSON-001` | 16-Week Course Architecture And Competency Matrix Boundary | next
-14. `TASK-CLCH-PROMPT-001` | NotebookLM Extraction Prompt Pack | pending
+13. `TASK-CLCH-LESSON-001` | 16-Week Course Architecture And Competency Matrix Boundary | completed
+14. `TASK-CLCH-PROMPT-001` | NotebookLM Extraction Prompt Pack | next
 15. `TASK-CLCH-LESSON-002` | Session Package Template, Source Evidence Contract And Build Standard | pending
 16. `TASK-CLCH-ASSESS-001` | Assessment Framework And Translation Practice Rubrics | pending
 17. `TASK-CLCH-AI-001` | Student AI/Vibecoding Activity Protocol | pending

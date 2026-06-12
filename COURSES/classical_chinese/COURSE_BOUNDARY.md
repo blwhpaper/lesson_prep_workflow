@@ -10,8 +10,8 @@
 - course object: translation-major undergraduates
 - course format: 16 weeks, 2 class hours per week
 - course goal: build foundational Ancient Chinese competence that supports translation studies and translation practice
-- current stage: governance boundary bootstrap only
-- current stage detail: knowledge-map extraction and `16-session core material matrix` are completed; `TASK-CLCH-LESSON-001 | 16-Week Course Architecture And Competency Matrix Boundary` is next
+- current stage: architecture boundary completed; package generation not started
+- current stage detail: knowledge-map extraction, `16-session core material matrix`, and `TASK-CLCH-LESSON-001 | 16-Week Course Architecture And Competency Matrix Boundary` are completed; `TASK-CLCH-PROMPT-001 | NotebookLM Extraction Prompt Pack` is next
 
 ## route_identity_rule
 
