@@ -42,10 +42,11 @@ Required read order for that route:
 10. `COURSES/classical_chinese/TASK_REGISTRY.md`
 11. the current `TASK-CLCH-*` task card
 12. `.agents/skills/classical_chinese_course_fail_closed_audit/SKILL.md` for future Classical Chinese tasks after `TASK-CLCH-GOV-SKILL-001`
-13. `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_ROADMAP.md` for future downstream Classical Chinese tasks after `TASK-CLCH-GOV-006`
-14. `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_SEQUENCE_OPTIMIZATION.md` for future downstream Classical Chinese tasks after `TASK-CLCH-GOV-007`
-15. the previous closeout for the same route family when it exists
-16. `git status --short --branch`
+13. `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_REGISTRY_REALIGNMENT.md` for future downstream Classical Chinese tasks after `TASK-CLCH-GOV-008`
+14. `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_ROADMAP.md` for future downstream Classical Chinese tasks after `TASK-CLCH-GOV-006`
+15. `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_SEQUENCE_OPTIMIZATION.md` for future downstream Classical Chinese tasks after `TASK-CLCH-GOV-007`
+16. the previous closeout for the same route family when it exists
+17. `git status --short --branch`
 
 Required operating rules:
 
@@ -79,5 +80,6 @@ Required operating rules:
 - After `TASK-CLCH-GOV-SKILL-001`, future Classical Chinese tasks must read `.agents/skills/classical_chinese_course_fail_closed_audit/SKILL.md` and apply its fail-closed checklist before promoting any source-derived, lesson-stage, assessment-stage, or publication-sensitive artifact.
 - After `TASK-CLCH-GOV-006`, future Classical Chinese downstream execution must also read `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_ROADMAP.md` before any `TASK-CLCH-LESSON-*`, `TASK-CLCH-ASSESS-*`, `TASK-CLCH-AI-*`, `TASK-CLCH-PROMPT-*`, or `TASK-CLCH-REVIEW-*` action.
 - After `TASK-CLCH-GOV-007`, future Classical Chinese downstream execution must also read `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_SEQUENCE_OPTIMIZATION.md` before any `TASK-CLCH-LESSON-*`, `TASK-CLCH-COMP-*`, `TASK-CLCH-MAT-*`, `TASK-CLCH-PROMPT-*`, `TASK-CLCH-WORKFLOW-*`, `TASK-CLCH-AI-*`, `TASK-CLCH-ASSESS-*`, `TASK-CLCH-QA-*`, or `TASK-CLCH-DELIVERY-*` action.
-- `TASK-CLCH-LESSON-001` may define architecture only. It does not authorize full lesson-body prose, session package drafting, student assignments, or AI activity content.
+- After `TASK-CLCH-GOV-008`, future Classical Chinese downstream execution must first read `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_REGISTRY_REALIGNMENT.md`, then read `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_ROADMAP.md` and `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_SEQUENCE_OPTIMIZATION.md`, and must treat the GOV-008 four-batch lesson-build route as the latest downstream mainline.
+- `TASK-CLCH-LESSON-001` may define architecture and competency-matrix boundary only. It does not authorize full lesson-body prose, session package drafting, student assignments, or AI activity content.
 - End each governed task response with the current branch, changed files, protocol or rule summary, acceptance-command results, and risks or unfinished items.

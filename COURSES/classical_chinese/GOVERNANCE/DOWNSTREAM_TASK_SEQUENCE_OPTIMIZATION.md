@@ -4,6 +4,14 @@ This file is the latest downstream execution-order interpretation layer created 
 
 It does not delete the historical value of `TASK-CLCH-GOV-006`. It supersedes `TASK-CLCH-GOV-006` only for future downstream execution order, dependency interpretation, competency-matrix placement, and acceptance-boundary enforcement.
 
+`TASK-CLCH-GOV-008` later supersedes the GOV-007 chain as the latest downstream mainline. This file remains a historical interpretation layer and must be read together with `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_REGISTRY_REALIGNMENT.md` so agents do not mistake the GOV-007 chain for the current route.
+
+## GOV-008 Override Note
+
+- The GOV-007 11-task expanded governance chain in this file is superseded by the GOV-008 four-batch lesson build chain.
+- Use `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_REGISTRY_REALIGNMENT.md` for the current downstream mainline, replacement map, and folded-task interpretation.
+- Keep this file as historical execution-order context rather than the active route pointer.
+
 ## Scope Statement
 
 - The 11 tasks below define the runnable shell for downstream course generation and delivery governance.

@@ -1,31 +1,32 @@
 # Classical Chinese Downstream Task Roadmap
 
-This file is the downstream scope contract created by `TASK-CLCH-GOV-006` and updated by `TASK-CLCH-GOV-007`.
+This file is the downstream scope contract created by `TASK-CLCH-GOV-006`, updated by `TASK-CLCH-GOV-007`, and realigned by `TASK-CLCH-GOV-008`.
 
 `TASK-CLCH-GOV-006` retains historical value as the first downstream hardening pass.
-`TASK-CLCH-GOV-007` is the latest execution-order interpretation layer for all future downstream work.
+`TASK-CLCH-GOV-007` retains historical value as the prior expanded-governance execution-order layer.
+`TASK-CLCH-GOV-008` supersedes `TASK-CLCH-GOV-007` as the latest downstream execution order for all future downstream work.
 
-Future downstream tasks must read this file together with `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_SEQUENCE_OPTIMIZATION.md`.
+Future downstream tasks must first read `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_REGISTRY_REALIGNMENT.md`, then read this file together with `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_SEQUENCE_OPTIMIZATION.md`.
 
 ## Status Layer
 
 - `TASK-CLCH-GOV-006` = historical downstream hardening baseline
-- `TASK-CLCH-GOV-007` = latest downstream sequence optimization and competency-matrix boundary patch
-- next executable downstream route = `TASK-CLCH-LESSON-001 | 16-Week Course Architecture`
+- `TASK-CLCH-GOV-007` = historical downstream sequence optimization and competency-matrix boundary patch
+- `TASK-CLCH-GOV-008` = latest downstream registry realignment to the four-batch lesson build route
+- next executable downstream route = `TASK-CLCH-LESSON-001 | 16-Week Course Architecture And Competency Matrix Boundary`
 
 ## Latest Downstream Sequence
 
-1. `TASK-CLCH-LESSON-001` | 16-Week Course Architecture | `next`
-2. `TASK-CLCH-COMP-001` | Classical Chinese Competency Matrix And Assessment Boundary | `pending`
-3. `TASK-CLCH-LESSON-002` | Weekly Unit And Session Blueprint | `pending`
-4. `TASK-CLCH-MAT-003` | Session-Level Source Material Allocation | `pending`
-5. `TASK-CLCH-PROMPT-001` | NotebookLM Extraction Prompt Pack | `pending`
-6. `TASK-CLCH-LESSON-003` | Sample Lesson Package Prototype | `pending`
-7. `TASK-CLCH-WORKFLOW-001` | Teacher Preparation Workflow | `pending`
-8. `TASK-CLCH-AI-001` | Student AI/Vibecoding Task Protocol | `pending`
-9. `TASK-CLCH-ASSESS-001` | Student Output Rubric And Evidence Checklist | `pending`
-10. `TASK-CLCH-QA-001` | Lesson Package Quality Audit Protocol | `pending`
-11. `TASK-CLCH-DELIVERY-001` | Full 16-Week Lesson Package Generation Plan | `pending`
+1. `TASK-CLCH-LESSON-001` | 16-Week Course Architecture And Competency Matrix Boundary | `next`
+2. `TASK-CLCH-PROMPT-001` | NotebookLM Extraction Prompt Pack | `pending`
+3. `TASK-CLCH-LESSON-002` | Session Package Template, Source Evidence Contract And Build Standard | `pending`
+4. `TASK-CLCH-ASSESS-001` | Assessment Framework And Translation Practice Rubrics | `pending`
+5. `TASK-CLCH-AI-001` | Student AI/Vibecoding Activity Protocol | `pending`
+6. `TASK-CLCH-LESSON-003` | Week 1-4 Lesson Package Build | `pending`
+7. `TASK-CLCH-LESSON-004` | Week 5-8 Lesson Package Build | `pending`
+8. `TASK-CLCH-LESSON-005` | Week 9-12 Lesson Package Build | `pending`
+9. `TASK-CLCH-LESSON-006` | Week 13-16 Lesson Package Build | `pending`
+10. `TASK-CLCH-REVIEW-001` | Course Delivery Review, Source Evidence Audit And Fail-Closed Check | `pending`
 
 ## Historical Route Note
 
@@ -35,55 +36,48 @@ The earlier `TASK-CLCH-GOV-006` sequence used:
 - `TASK-CLCH-LESSON-003` through `TASK-CLCH-LESSON-006` as four week-block package-build tasks
 - `TASK-CLCH-REVIEW-001` as the final route audit
 
-Those definitions remain historically informative. They are no longer the preferred first execution order after `TASK-CLCH-GOV-007`.
+The `TASK-CLCH-GOV-007` sequence then replaced that with the expanded governance chain centered on `COMP-001`, `MAT-003`, `WORKFLOW-001`, `QA-001`, and `DELIVERY-001`.
+
+Those definitions remain historically informative. They are superseded and must not be treated as the current downstream mainline after `TASK-CLCH-GOV-008`.
+
+## GOV-008 Override Note
+
+Use `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_REGISTRY_REALIGNMENT.md` as the primary registry override when interpreting downstream order, folded tasks, and superseded placeholders.
 
 ## Boundary Matrix
 
 | task | task class | goal | required inputs | expected outputs | not allowed | acceptance standard |
 |---|---|---|---|---|---|---|
-| `TASK-CLCH-LESSON-001` | course architecture | define the 16-week architecture and progression logic | `KNOWLEDGE_MAP.md`, `CORE_MATERIAL_MATRIX_16_SESSIONS.md`, route pointers, active task card, fail-closed skill, this roadmap, sequence optimization file | course architecture doc, unit map, weekly progression table, unresolved dependency list | no full lesson prose, no PPT body, no handout prose, no assignments, no translations pack | architecture covers all 16 weeks, stays source-bounded, and remains architecture-only |
-| `TASK-CLCH-COMP-001` | shell governance | define competency matrix and assessment boundary before lesson-body generation | `TASK-CLCH-LESSON-001`, course boundary, material artifacts, fail-closed skill | competency matrix, performance dimensions, assessment boundary, evidence gate definitions | no lesson prose, no rubric bank for students yet, no session package bodies | competency matrix becomes a boundary and acceptance layer for all later tasks |
-| `TASK-CLCH-LESSON-002` | course architecture | convert architecture into weekly and session blueprints | `TASK-CLCH-LESSON-001`, `TASK-CLCH-COMP-001`, material artifacts, fail-closed skill | weekly unit framework, session blueprint schema, objective slots, evidence hooks | no classroom-ready script, no PPT pages, no homework bodies | blueprint fully maps to architecture and competency boundary without dropping into full lesson prose |
-| `TASK-CLCH-MAT-003` | material processing | assign source-bounded material to each session blueprint | `TASK-CLCH-LESSON-002`, `TASK-CLCH-COMP-001`, source metadata, material matrix, fail-closed skill | session-level source allocation table, locator notes, source coverage map, maturity flags | no source-free summaries pretending to be lessons, no handouts, no translation materials | every session has governed material slots and unresolved locator gaps are visible |
-| `TASK-CLCH-PROMPT-001` | material processing | define NotebookLM extraction prompts that support source allocation and later package drafting | `TASK-CLCH-MAT-003`, `TASK-CLCH-COMP-001`, NotebookLM boundary rules, fail-closed skill | prompt pack, metadata, extraction templates, failure cases, review prompts | no prompt-only lesson generation, no classroom-ready wording, no hidden source substitution | prompts stay extraction-support only and reinforce evidence capture |
-| `TASK-CLCH-LESSON-003` | classroom delivery | validate one sample lesson package before any batch generation | `TASK-CLCH-LESSON-002`, `TASK-CLCH-MAT-003`, `TASK-CLCH-COMP-001`, `TASK-CLCH-PROMPT-001`, fail-closed skill | sample lesson package prototype, package schema validation notes, teacher-review flags | no full 16-week batch generation, no full question bank, no full PPT set | the lesson shell proves runnable on a sample basis without overproducing the course |
-| `TASK-CLCH-WORKFLOW-001` | shell governance | define teacher preparation workflow on top of the sample package | `TASK-CLCH-LESSON-003`, `TASK-CLCH-COMP-001`, `TASK-CLCH-PROMPT-001`, fail-closed skill | teacher workflow, prep steps, artifact handoff order, review checkpoints | no student-facing package generation at scale, no assessment bank | workflow reflects real prototype dependencies and keeps competency/evidence gates visible |
-| `TASK-CLCH-AI-001` | classroom delivery | define bounded student AI tasks as method-layer support | `TASK-CLCH-LESSON-003`, `TASK-CLCH-WORKFLOW-001`, `TASK-CLCH-COMP-001`, fail-closed skill | AI task protocol, disclosure rule, teacher override rule, allowed task types | no AI-first syllabus, no AI substitution for reading, no tool course drift | AI remains subordinate to course competencies and lesson boundaries |
-| `TASK-CLCH-ASSESS-001` | assessment loop | define student-output rubric and evidence checklist | `TASK-CLCH-COMP-001`, `TASK-CLCH-LESSON-003`, `TASK-CLCH-WORKFLOW-001`, fail-closed skill | rubric system, evidence checklist, assessment traceability notes | no uncontrolled question bank, no answer dump, no detached assessment tasks | assessment rules map directly back to competency matrix and lesson evidence |
-| `TASK-CLCH-QA-001` | shell governance | define lesson-package quality audit protocol | all prior downstream artifacts, fail-closed skill | QA protocol, blocker checklist, drift checks, release gate rules | no new lesson drafting, no silent route rewrites, no scope expansion | QA protocol can block outputs that violate source, competency, evidence, or maturity gates |
-| `TASK-CLCH-DELIVERY-001` | shell governance | define the governed plan for later 16-week package generation | all prior downstream artifacts, especially `TASK-CLCH-QA-001`, fail-closed skill | batch-generation plan, review cadence, dependency checklist, delivery sequencing plan | no full 16-week lesson package, no full PPT build, no full question bank | outputs a production plan only, not the final course package |
+| `TASK-CLCH-LESSON-001` | course architecture | define the 16-week architecture and competency boundary | `KNOWLEDGE_MAP.md`, `CORE_MATERIAL_MATRIX_16_SESSIONS.md`, route pointers, active task card, fail-closed skill, this roadmap, sequence optimization file, realignment file | course architecture doc, unit map, weekly progression table, competency boundary, unresolved dependency list | no full lesson prose, no PPT body, no handout prose, no assignments, no translations pack | architecture covers all 16 weeks, states competency boundary explicitly, and remains architecture-only |
+| `TASK-CLCH-PROMPT-001` | prompt support | define NotebookLM extraction prompts that support evidence capture and later package work | `TASK-CLCH-LESSON-001`, NotebookLM boundary rules, fail-closed skill | prompt pack, metadata, extraction templates, failure cases, review prompts | no prompt-only lesson generation, no classroom-ready wording, no hidden source substitution | prompts stay extraction-support only and reinforce evidence capture |
+| `TASK-CLCH-LESSON-002` | package standard | define the session package template, source evidence contract, and build standard | `TASK-CLCH-LESSON-001`, `TASK-CLCH-PROMPT-001`, material artifacts, fail-closed skill | package template, source evidence contract, build standard, teacher-use constraints | no classroom-ready full-course script, no full 16-week package, no homework bodies | template and build standard are reusable, evidence-bound, and still below full package generation |
+| `TASK-CLCH-ASSESS-001` | assessment loop | define the assessment framework and translation-practice rubrics | `TASK-CLCH-LESSON-001`, `TASK-CLCH-LESSON-002`, fail-closed skill | assessment framework, rubric system, evidence checklist, assessment traceability notes | no uncontrolled question bank, no answer dump, no detached assessment tasks | assessment rules map directly back to the architecture and evidence contract |
+| `TASK-CLCH-AI-001` | classroom delivery | define bounded student AI tasks as method-layer support | `TASK-CLCH-LESSON-001`, `TASK-CLCH-LESSON-002`, fail-closed skill | AI task protocol, disclosure rule, teacher override rule, allowed task types | no AI-first syllabus, no AI substitution for reading, no tool course drift | AI remains subordinate to course competencies and package boundaries |
+| `TASK-CLCH-LESSON-003` | classroom delivery | build the Week 1-4 lesson package batch | `TASK-CLCH-LESSON-001`, `TASK-CLCH-PROMPT-001`, `TASK-CLCH-LESSON-002`, `TASK-CLCH-ASSESS-001`, `TASK-CLCH-AI-001`, fail-closed skill | Week 1-4 lesson package build, review flags, unresolved evidence list | no Week 5-16 generation, no full question bank, no full PPT set | the first four-week batch is buildable under the governed template without route drift |
+| `TASK-CLCH-LESSON-004` | classroom delivery | build the Week 5-8 lesson package batch | `TASK-CLCH-LESSON-003` and earlier boundaries | Week 5-8 lesson package build, review flags, unresolved evidence list | no Week 9-16 generation, no cross-batch drift | the second batch preserves the same build standard and evidence contract |
+| `TASK-CLCH-LESSON-005` | classroom delivery | build the Week 9-12 lesson package batch | `TASK-CLCH-LESSON-004` and earlier boundaries | Week 9-12 lesson package build, review flags, unresolved evidence list | no Week 13-16 generation, no cross-batch drift | the third batch preserves the same build standard and evidence contract |
+| `TASK-CLCH-LESSON-006` | classroom delivery | build the Week 13-16 lesson package batch | `TASK-CLCH-LESSON-005` and earlier boundaries | Week 13-16 lesson package build, review flags, unresolved evidence list | no publication claim, no review bypass | the fourth batch completes the 16-week build set without bypassing final review |
+| `TASK-CLCH-REVIEW-001` | review audit | run the final source evidence audit and fail-closed check | `TASK-CLCH-LESSON-003` through `TASK-CLCH-LESSON-006`, plus all earlier boundaries and fail-closed skill | course delivery review, source evidence audit, fail-closed findings, release readiness notes | no new lesson drafting, no silent route rewrites, no scope expansion | review can block outputs that violate source, evidence, or maturity gates |
 
-## Competency Matrix Boundary
+## Folded Historical Placeholders
 
-After `TASK-CLCH-GOV-007`, the competency matrix must appear before any lesson package prototype, teacher workflow, AI task protocol, rubric, QA protocol, or 16-week generation plan.
+These tasks are no longer part of the latest downstream mainline after `TASK-CLCH-GOV-008`:
 
-It must function as:
-
-- a boundary
-- an acceptance contract
-- an evidence-mapping rule
-- a drift-rejection layer
-
-It must not be postponed to the end of lesson generation.
-
-## Route Class Rule
-
-- shell governance: `COMP`, `WORKFLOW`, `QA`, `DELIVERY`
-- course architecture: `LESSON-001`, `LESSON-002`
-- material processing: `MAT-003`, `PROMPT-001`
-- classroom delivery: `LESSON-003`, `AI-001`
-- assessment loop: `ASSESS-001`
+- `TASK-CLCH-COMP-001` -> folded into `TASK-CLCH-LESSON-001`
+- `TASK-CLCH-MAT-003` -> folded into `TASK-CLCH-LESSON-002`
+- `TASK-CLCH-WORKFLOW-001` -> folded into `TASK-CLCH-LESSON-002` and `TASK-CLCH-REVIEW-001`
+- `TASK-CLCH-QA-001` -> folded into `TASK-CLCH-REVIEW-001`
+- `TASK-CLCH-DELIVERY-001` -> replaced by `TASK-CLCH-LESSON-003` through `TASK-CLCH-LESSON-006`
 
 ## Non-Equivalence Rule
 
-Finishing these 11 tasks does not mean the 16-week preparation workload is fully complete.
+Finishing these 10 tasks does not mean the 16-week preparation workload is fully complete.
 
 It means only that:
 
-- the downstream production shell is defined
-- the competency boundary is enforceable
-- the workflow and QA loop are governable
-- the later 16-week production phase can begin under protocol
+- the four-batch lesson-package route is completed
+- the source evidence and fail-closed review loop is governable
+- the full 16-week package set exists only after all four batch-build tasks finish and pass review
 
 ## Global Fail-Closed Rules
 

@@ -11,7 +11,7 @@
 - course format: 16 weeks, 2 class hours per week
 - course goal: build foundational Ancient Chinese competence that supports translation studies and translation practice
 - current stage: governance boundary bootstrap only
-- current stage detail: knowledge-map extraction and `16-session core material matrix` are completed; `TASK-CLCH-LESSON-001 | 16-Week Course Architecture` is next
+- current stage detail: knowledge-map extraction and `16-session core material matrix` are completed; `TASK-CLCH-LESSON-001 | 16-Week Course Architecture And Competency Matrix Boundary` is next
 
 ## route_identity_rule
 
@@ -101,6 +101,9 @@
   - `COURSES/classical_chinese/ROADMAP.md`
   - `COURSES/classical_chinese/TASK_REGISTRY.md`
   - the current task card
+  - `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_REGISTRY_REALIGNMENT.md` after `TASK-CLCH-GOV-008`
+  - `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_ROADMAP.md` after `TASK-CLCH-GOV-006`
+  - `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_SEQUENCE_OPTIMIZATION.md` after `TASK-CLCH-GOV-007`
   - the previous closeout
   - `git status --short --branch`
 - token-saving rule:
@@ -219,5 +222,6 @@
 - knowledge-map extraction contract
 - `16-session core material matrix` contract
 - unit-architecture and lesson-design contracts after material maturity gates are satisfied
+- four-batch lesson-package build governance after the architecture, evidence, assessment, and AI-method boundaries are satisfied
 - AI/vibecoding learning-activity boundary document as a downstream method-layer task
 - assessment and assignment framework after design-stage prerequisites are met
