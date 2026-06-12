@@ -2,12 +2,12 @@
   "repo": "lesson_prep_workflow",
   "project_type": "lesson_prep_workflow_repo",
   "current_course": "classical_chinese",
-  "current_task": "TASK-CLCH-GOV-007",
-  "current_task_title": "Downstream Task Sequence Optimization And Competency Matrix Boundary Patch",
+  "current_task": "TASK-CLCH-GOV-008",
+  "current_task_title": "Downstream Task Registry Realignment To Four-Batch Lesson Build Plan",
   "current_status": "completed",
   "status": "completed",
   "next_task": "TASK-CLCH-LESSON-001",
-  "next_task_title": "16-Week Course Architecture",
+  "next_task_title": "16-Week Course Architecture And Competency Matrix Boundary",
   "next_status": "next",
   "completed_tasks": [
     "TASK-LPW-GOV-002",
@@ -24,7 +24,8 @@
     "TASK-CLCH-MAT-002",
     "TASK-CLCH-GOV-SKILL-001",
     "TASK-CLCH-GOV-006",
-    "TASK-CLCH-GOV-007"
+    "TASK-CLCH-GOV-007",
+    "TASK-CLCH-GOV-008"
   ],
   "fail_closed": true,
   "cross_repo_reference": "read_only",

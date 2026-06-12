@@ -87,3 +87,11 @@
 - Updated `AGENTS.md`, `GEMINI.md`, `docs/OPERATOR_GUIDE.md`, and `COURSES/classical_chinese/COURSE_BOUNDARY.md` so future downstream Classical Chinese tasks must read both the downstream roadmap and the downstream sequence optimization file before acting.
 - Preserved `TASK-CLCH-LESSON-001 | 16-Week Course Architecture` as the next task and explicitly kept it architecture-only.
 - Did not generate any lesson-body prose, 16-week full lesson package, PPT body, question bank, translation material, or classroom-facing text.
+- Completed `TASK-CLCH-GOV-008` and realigned the downstream registry from the GOV-007 expanded governance chain to the four-batch lesson build route.
+- Added `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_REGISTRY_REALIGNMENT.md` as the new downstream registry override and replacement map for future downstream execution.
+- Kept `TASK-CLCH-GOV-007` as a historical interpretation layer while making `TASK-CLCH-GOV-008` the latest downstream execution-order authority.
+- Replaced the current downstream mainline with `TASK-CLCH-LESSON-001`, `TASK-CLCH-PROMPT-001`, `TASK-CLCH-LESSON-002`, `TASK-CLCH-ASSESS-001`, `TASK-CLCH-AI-001`, `TASK-CLCH-LESSON-003`, `TASK-CLCH-LESSON-004`, `TASK-CLCH-LESSON-005`, `TASK-CLCH-LESSON-006`, and `TASK-CLCH-REVIEW-001`.
+- Folded `TASK-CLCH-COMP-001` into `TASK-CLCH-LESSON-001`, `TASK-CLCH-MAT-003` into `TASK-CLCH-LESSON-002`, `TASK-CLCH-WORKFLOW-001` into `TASK-CLCH-LESSON-002` and `TASK-CLCH-REVIEW-001`, `TASK-CLCH-QA-001` into `TASK-CLCH-REVIEW-001`, and replaced `TASK-CLCH-DELIVERY-001` with the four lesson-build batches.
+- Updated `AGENTS.md`, `GEMINI.md`, `docs/OPERATOR_GUIDE.md`, `COURSES/classical_chinese/ROADMAP.md`, `COURSES/classical_chinese/TASK_REGISTRY.md`, `COURSES/classical_chinese/COURSE_BOUNDARY.md`, `GOVERNANCE/PLAN.md`, `GOVERNANCE/TASK_STATE.json`, and `GOVERNANCE/TASK_INDEX.md` so future agents must read the new realignment file before the older downstream roadmap layers.
+- Set the next task to `TASK-CLCH-LESSON-001 | 16-Week Course Architecture And Competency Matrix Boundary`.
+- Did not generate lesson正文, PPT, 题库, 课堂材料, 翻译材料, or student assignment bodies.
