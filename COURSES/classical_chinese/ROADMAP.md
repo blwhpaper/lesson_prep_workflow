@@ -4,7 +4,7 @@
 
 `TASK-CLCH-GOV-000` created the governance shell. `TASK-CLCH-GOV-001` hardened the course boundary. `TASK-CLCH-GOV-002` established the cross-agent entry layer. `TASK-CLCH-GOV-003` hardened source authority and copyright boundaries. `TASK-CLCH-GOV-004` locked task routing and naming conventions. `TASK-CLCH-GOV-005` retired the duplicate standalone `classical_chinese_translation` route and quarantined it under `LEGACY_IMPORTS` so future agents see only one formal course entry.
 
-This course has not yet entered approved teaching design. Governance is complete through legacy-route retirement, fail-closed skill audit insertion, and downstream roadmap hardening, and the material stage now includes both the governed knowledge map and the governed `16-session core material matrix`. The next route is `TASK-CLCH-LESSON-001 | 16-Week Course Architecture`, and downstream work must still ignore `LEGACY_IMPORTS` unless a future task card explicitly authorizes audited legacy use.
+This course has not yet entered approved teaching design. Governance is complete through legacy-route retirement, fail-closed skill audit insertion, downstream roadmap hardening, and downstream sequence optimization with competency-matrix pre-binding. The material stage now includes both the governed knowledge map and the governed `16-session core material matrix`. The next route is `TASK-CLCH-LESSON-001 | 16-Week Course Architecture`, and downstream work must still ignore `LEGACY_IMPORTS` unless a future task card explicitly authorizes audited legacy use.
 
 ## Route
 
@@ -18,16 +18,18 @@ This course has not yet entered approved teaching design. Governance is complete
 8. `TASK-CLCH-MAT-002` | 16-Session Core Material Matrix | completed
 9. `TASK-CLCH-GOV-SKILL-001` | Classical Chinese Course Agent Skill And Fail-Closed Audit | completed
 10. `TASK-CLCH-GOV-006` | Classical Chinese Course Downstream Task Roadmap Hardening | completed
-11. `TASK-CLCH-LESSON-001` | 16-Week Course Architecture | next
-12. `TASK-CLCH-LESSON-002` | Session Package Template And Evidence Contract | pending
-13. `TASK-CLCH-LESSON-003` | Week 1-4 Lesson Package Build | pending
-14. `TASK-CLCH-LESSON-004` | Week 5-8 Lesson Package Build | pending
-15. `TASK-CLCH-LESSON-005` | Week 9-12 Lesson Package Build | pending
-16. `TASK-CLCH-LESSON-006` | Week 13-16 Lesson Package Build | pending
-17. `TASK-CLCH-ASSESS-001` | Assignments Rubrics And Translation Practice Assessment | pending
-18. `TASK-CLCH-AI-001` | Student AI/Vibecoding Activity Protocol | pending
-19. `TASK-CLCH-PROMPT-001` | NotebookLM Extraction Prompt Pack | pending
-20. `TASK-CLCH-REVIEW-001` | Course Delivery Review And Fail-Closed Audit | pending
+11. `TASK-CLCH-GOV-007` | Downstream Task Sequence Optimization And Competency Matrix Boundary Patch | completed
+12. `TASK-CLCH-LESSON-001` | 16-Week Course Architecture | next
+13. `TASK-CLCH-COMP-001` | Classical Chinese Competency Matrix And Assessment Boundary | pending
+14. `TASK-CLCH-LESSON-002` | Weekly Unit And Session Blueprint | pending
+15. `TASK-CLCH-MAT-003` | Session-Level Source Material Allocation | pending
+16. `TASK-CLCH-PROMPT-001` | NotebookLM Extraction Prompt Pack | pending
+17. `TASK-CLCH-LESSON-003` | Sample Lesson Package Prototype | pending
+18. `TASK-CLCH-WORKFLOW-001` | Teacher Preparation Workflow | pending
+19. `TASK-CLCH-AI-001` | Student AI/Vibecoding Task Protocol | pending
+20. `TASK-CLCH-ASSESS-001` | Student Output Rubric And Evidence Checklist | pending
+21. `TASK-CLCH-QA-001` | Lesson Package Quality Audit Protocol | pending
+22. `TASK-CLCH-DELIVERY-001` | Full 16-Week Lesson Package Generation Plan | pending
 
 ## Sequencing Logic
 
@@ -39,20 +41,25 @@ This course has not yet entered approved teaching design. Governance is complete
 - `TASK-CLCH-MAT-001` maps the governed knowledge terrain without pretending lesson sequencing is already settled
 - `TASK-CLCH-MAT-002` must turn that knowledge terrain into the `16-session core material matrix` before any teaching-design task can begin
 - `TASK-CLCH-GOV-SKILL-001` inserts a governed fail-closed skill audit between the matrix stage and lesson architecture so later agents must check promotion risk before design begins
-- `TASK-CLCH-GOV-006` hardens the full downstream route so later agents do not have to infer task order, stage gates, or permitted outputs after `TASK-CLCH-LESSON-001`
+- `TASK-CLCH-GOV-006` created the first downstream route hardening layer
+- `TASK-CLCH-GOV-007` updates that route into the latest execution order and moves the competency matrix forward as a required boundary before lesson package prototyping, workflow design, AI-task design, rubric design, QA, or batch-generation planning
 - `TASK-CLCH-LESSON-001` defines the 16-week architecture only and must not drift into full lesson-body drafting
-- `TASK-CLCH-LESSON-002` must freeze the package template, evidence contract, and output schema before any week-range package build starts
-- `TASK-CLCH-LESSON-003` through `TASK-CLCH-LESSON-006` split production into four-week blocks so lesson drafting, evidence review, and quality control remain governable
-- `TASK-CLCH-ASSESS-001` comes after package structure is stable because assignments and rubrics must follow already bounded lesson scope
-- `TASK-CLCH-AI-001` comes after lesson and assessment boundaries are visible so AI work stays method-layer only and does not overtake the course core
-- `TASK-CLCH-PROMPT-001` comes after the lesson package and AI-activity boundaries are explicit so NotebookLM prompts remain extraction support, not a substitute design engine
-- `TASK-CLCH-REVIEW-001` follows once governed architecture, packages, assessment, AI protocol, and prompt pack artifacts exist to audit
+- `TASK-CLCH-COMP-001` must complete before downstream lesson-body, workflow, AI, assessment, QA, or delivery planning tasks because competency and assessment boundaries must exist before content-scale generation
+- `TASK-CLCH-LESSON-002` converts the architecture into weekly and session blueprints rather than drafting lesson bodies
+- `TASK-CLCH-MAT-003` assigns session-level source material before prompt support or lesson-package prototyping
+- `TASK-CLCH-PROMPT-001` follows source allocation so prompts support extraction and evidence capture instead of replacing design logic
+- `TASK-CLCH-LESSON-003` is a sample lesson package prototype only; it validates the shell before any batch route is planned
+- `TASK-CLCH-WORKFLOW-001` defines the teacher preparation workflow after a prototype exists
+- `TASK-CLCH-AI-001` comes after workflow and prototype boundaries are visible so AI remains method-layer support only
+- `TASK-CLCH-ASSESS-001` comes after competency, prototype, and workflow boundaries exist so rubrics trace back to evidence
+- `TASK-CLCH-QA-001` defines the quality gate before large-scale production planning
+- `TASK-CLCH-DELIVERY-001` plans governed 16-week package generation only after QA rules exist
 
 ## Stage Gate
 
 Minimum allowed route:
 
-`governance shell -> boundary bootstrap -> cross-agent entry protocol -> source authority and copyright boundary -> task routing and naming convention contract -> legacy-route retirement and archive isolation -> knowledge map extraction -> 16-session core material matrix -> fail-closed skill audit -> downstream roadmap hardening -> 16-week course architecture -> session package template and evidence contract -> week 1-4 package build -> week 5-8 package build -> week 9-12 package build -> week 13-16 package build -> assessment and assignment system -> AI/vibecoding student activity protocol -> NotebookLM extraction prompt pack -> course delivery review route`
+`governance shell -> boundary bootstrap -> cross-agent entry protocol -> source authority and copyright boundary -> task routing and naming convention contract -> legacy-route retirement and archive isolation -> knowledge map extraction -> 16-session core material matrix -> fail-closed skill audit -> downstream roadmap hardening -> downstream sequence optimization and competency-matrix boundary patch -> 16-week course architecture -> competency matrix and assessment boundary -> weekly unit and session blueprint -> session-level source material allocation -> NotebookLM extraction prompt pack -> sample lesson package prototype -> teacher preparation workflow -> student AI/vibecoding task protocol -> student output rubric and evidence checklist -> lesson package quality audit protocol -> full 16-week lesson package generation plan`
 
 ## NotebookLM Rule
 
@@ -72,7 +79,7 @@ All downstream Classical Chinese tasks must preserve the source-authority ladder
 
 ## Downstream Hardening Rule
 
-After `TASK-CLCH-GOV-006`, no Classical Chinese downstream task may rely on ad hoc inference for scope, order, or output class once `TASK-CLCH-LESSON-001` begins. Agents must use `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_ROADMAP.md` as the task-family boundary map for `LESSON`, `ASSESS`, `AI`, `PROMPT`, and `REVIEW` work.
+After `TASK-CLCH-GOV-007`, no Classical Chinese downstream task may rely on ad hoc inference for scope, order, output class, or competency placement once `TASK-CLCH-LESSON-001` begins. Agents must use both `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_ROADMAP.md` and `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_SEQUENCE_OPTIMIZATION.md` as the current downstream interpretation layer for `LESSON`, `COMP`, `MAT`, `PROMPT`, `WORKFLOW`, `AI`, `ASSESS`, `QA`, and `DELIVERY` work.
 
 ## Anti-Drift Rule
 
