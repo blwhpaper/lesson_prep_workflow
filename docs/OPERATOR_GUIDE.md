@@ -12,8 +12,9 @@ For later Classical Chinese execution, when the user says `TASK-CLCH-XXX 开工`
 2. `COURSES/classical_chinese/ROADMAP.md`
 3. `COURSES/classical_chinese/TASK_REGISTRY.md`
 4. the current `TASK-CLCH-*` task card
-5. the previous `TASK-CLCH-*` closeout
-6. the current git state via `git status --short --branch`
+5. `.agents/skills/classical_chinese_course_fail_closed_audit/SKILL.md` for future Classical Chinese tasks after `TASK-CLCH-GOV-SKILL-001`
+6. the previous `TASK-CLCH-*` closeout
+7. the current git state via `git status --short --branch`
 
 The agent must then confirm that the requested output matches the task stage. For this course line, the required pre-design route is:
 
@@ -78,5 +79,6 @@ For this course line, the required pre-design route is:
 
 Keep `TASK_REGISTRY`, `ROADMAP`, `PLAN`, `TASK_STATE`, `TASK_INDEX`, and `CHANGE_LOG` aligned. After `TASK-CLCH-GOV-005`, the next route is `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
 Before `TASK-CLCH-MAT-001` begins, ignore `LEGACY_IMPORTS/classical_chinese_translation` unless the active task card explicitly authorizes audited legacy-material use.
+After `TASK-CLCH-GOV-SKILL-001`, future Classical Chinese tasks must read `.agents/skills/classical_chinese_course_fail_closed_audit/SKILL.md` and use it as the minimum fail-closed audit checklist before drafting or promoting source-derived or stage-sensitive outputs.
 
 Do not skip from boundary governance to lesson generation. AI/vibecoding belongs only to later method-layer activity design and must not replace the Ancient Chinese knowledge core.

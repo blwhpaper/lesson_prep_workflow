@@ -65,3 +65,9 @@
 - Kept all session slots below lesson level, preserved the `L0 -> L5` source-authority ladder, marked exact locators as `pending verification` where not yet attached, and excluded `LEGACY_IMPORTS` from use.
 - Explicitly labeled the matrix as not `lesson-ready`, not `assessment-ready`, not `publication-ready`, not a `完整教案`, not a `完整课件`, and not a `题库答案`.
 - Advanced the course-line pointer to `TASK-CLCH-LESSON-001 | 16-Week Course Architecture`.
+- Inserted and completed `TASK-CLCH-GOV-SKILL-001 | Classical Chinese Course Agent Skill And Fail-Closed Audit` between `TASK-CLCH-MAT-002` and `TASK-CLCH-LESSON-001` by explicit human-operator authorization.
+- Registered the insertion task across `PLAN`, `TASK_STATE`, `TASK_INDEX`, `ROADMAP`, and `TASK_REGISTRY` so the task became governable before execution.
+- Added `.agents/skills/classical_chinese_course_fail_closed_audit/SKILL.md` as the reusable fail-closed audit checklist for future Classical Chinese tasks.
+- Kept the skill focused on source authority, locator honesty, copyright or excerpt risk, maturity labels, NotebookLM boundary, legacy-import prohibition, lesson or assessment or publication over-promotion risk, cross-project drift, task-scope drift, and invented-content detection.
+- Updated `AGENTS.md`, `GEMINI.md`, and `docs/OPERATOR_GUIDE.md` with the minimum rule that future Classical Chinese tasks must read the audit skill after the task card and before acting on source-derived or stage-sensitive work.
+- Preserved `TASK-CLCH-LESSON-001 | 16-Week Course Architecture` as the next task and did not generate any lesson, slide, worksheet, question-bank, or answer-key content.
