@@ -45,4 +45,6 @@ Hard rules:
 - `COURSES/classical_chinese/LEGACY_IMPORTS/classical_chinese_translation` is isolated legacy material only and must not be treated as an active course line or source of record without explicit task-card authorization plus source audit.
 - After `TASK-CLCH-GOV-005`, tasks `TASK-CLCH-GOV-000` through `TASK-CLCH-GOV-005` are completed, and the next route is `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
 - After `TASK-CLCH-GOV-SKILL-001`, future Classical Chinese tasks must read `.agents/skills/classical_chinese_course_fail_closed_audit/SKILL.md` before acting on source-derived or stage-sensitive artifacts.
+- After `TASK-CLCH-GOV-006`, future downstream Classical Chinese tasks must also read `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_ROADMAP.md` before any `LESSON`, `ASSESS`, `AI`, `PROMPT`, or `REVIEW` execution.
+- `TASK-CLCH-LESSON-001` is architecture-only and does not authorize session package bodies, classroom-ready lesson prose, student assignments, or AI activity sheets.
 - Return branch, modified files, summary, acceptance checks, and remaining risks.

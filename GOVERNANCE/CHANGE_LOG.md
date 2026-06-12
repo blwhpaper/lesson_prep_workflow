@@ -71,3 +71,10 @@
 - Kept the skill focused on source authority, locator honesty, copyright or excerpt risk, maturity labels, NotebookLM boundary, legacy-import prohibition, lesson or assessment or publication over-promotion risk, cross-project drift, task-scope drift, and invented-content detection.
 - Updated `AGENTS.md`, `GEMINI.md`, and `docs/OPERATOR_GUIDE.md` with the minimum rule that future Classical Chinese tasks must read the audit skill after the task card and before acting on source-derived or stage-sensitive work.
 - Preserved `TASK-CLCH-LESSON-001 | 16-Week Course Architecture` as the next task and did not generate any lesson, slide, worksheet, question-bank, or answer-key content.
+- Completed `TASK-CLCH-GOV-006` and hardened the Classical Chinese downstream route after `TASK-CLCH-LESSON-001`.
+- Added `COURSES/classical_chinese/GOVERNANCE/DOWNSTREAM_TASK_ROADMAP.md` as the downstream scope contract for later `LESSON`, `ASSESS`, `AI`, `PROMPT`, and `REVIEW` tasks.
+- Expanded the downstream sequence to include `TASK-CLCH-LESSON-002` through `TASK-CLCH-LESSON-006`, `TASK-CLCH-ASSESS-001`, `TASK-CLCH-AI-001`, `TASK-CLCH-PROMPT-001`, and `TASK-CLCH-REVIEW-001`.
+- Defined per-task boundaries for goal, inputs, outputs, prohibited work, acceptance standards, classroom-body permission, student-assignment permission, and NotebookLM evidence requirements.
+- Added anti-drift rules against turning the course into pure literary history, pure linguistic theory, or an AI tools course, and against leaking lesson-body prose into governance tasks.
+- Updated `AGENTS.md`, `GEMINI.md`, and `docs/OPERATOR_GUIDE.md` so future `TASK-CLCH-LESSON-001 开工` execution reads the downstream roadmap before acting.
+- Kept `TASK-CLCH-LESSON-001 | 16-Week Course Architecture` as the next task and did not generate any 16-week course-body content, session package prose, assignment bodies, or AI activity sheets.

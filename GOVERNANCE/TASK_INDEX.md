@@ -15,16 +15,22 @@
 | TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract | completed | `TASK_CARDS/TASK-CLCH-GOV-004_Task_Routing_And_Naming_Convention_Contract.md`; governance record: `GOVERNANCE/TASK-CLCH-GOV-004_Task_Routing_And_Naming_Convention_Contract.md`; closeout: `CLOSEOUTS/TASK-CLCH-GOV-004_Closeout.md` |
 | TASK-CLCH-GOV-005 | Merge Legacy Classical Chinese Translation Route Into Formal Course Route | completed | `TASK_CARDS/TASK-CLCH-GOV-005_Merge_Legacy_Classical_Chinese_Translation_Route_Into_Formal_Course_Route.md`; governance record: `GOVERNANCE/TASK-CLCH-GOV-005_Merge_Legacy_Classical_Chinese_Translation_Route_Into_Formal_Course_Route.md`; closeout: `CLOSEOUTS/TASK-CLCH-GOV-005_Closeout.md` |
 | TASK-CLCH-GOV-SKILL-001 | Classical Chinese Course Agent Skill And Fail-Closed Audit | completed | `TASK_CARDS/TASK-CLCH-GOV-SKILL-001_Classical_Chinese_Course_Agent_Skill_And_Fail_Closed_Audit.md`; skill: `.agents/skills/classical_chinese_course_fail_closed_audit/SKILL.md`; closeout: `CLOSEOUTS/TASK-CLCH-GOV-SKILL-001_Closeout.md` |
+| TASK-CLCH-GOV-006 | Classical Chinese Course Downstream Task Roadmap Hardening | completed | `TASK_CARDS/TASK-CLCH-GOV-006_Classical_Chinese_Course_Downstream_Task_Roadmap_Hardening.md`; closeout: `CLOSEOUTS/TASK-CLCH-GOV-006_Closeout.md` |
 | TASK-CLCH-MAT-001 | Knowledge Map Extraction | completed | `TASK_CARDS/TASK-CLCH-MAT-001_Knowledge_Map_Extraction.md`; closeout: `CLOSEOUTS/TASK-CLCH-MAT-001_Closeout.md`; material artifact: `COURSES/classical_chinese/MATERIALS/KNOWLEDGE_MAP.md` |
 | TASK-CLCH-MAT-002 | 16-Session Core Material Matrix | completed | `TASK_CARDS/TASK-CLCH-MAT-002_Sixteen_Week_Core_Material_Matrix.md`; closeout: `CLOSEOUTS/TASK-CLCH-MAT-002_Closeout.md`; material artifact: `COURSES/classical_chinese/MATERIALS/CORE_MATERIAL_MATRIX_16_SESSIONS.md` |
-| TASK-CLCH-LESSON-001 | 16-Week Course Architecture | next | task card not yet created |
-| TASK-CLCH-LESSON-002 | Unit Template And Lesson Design Contract | planned | task card not yet created |
-| TASK-CLCH-PROMPT-001 | NotebookLM And Agent Prompt Pack Contract | planned | task card not yet created |
-| TASK-CLCH-ASSESS-001 | Assessment And Assignment Framework | planned | task card not yet created |
-| TASK-CLCH-REVIEW-001 | Course Retrospective And Quality Review | planned | task card not yet created |
+| TASK-CLCH-LESSON-001 | 16-Week Course Architecture | next | task card to be created by the active execution turn only |
+| TASK-CLCH-LESSON-002 | Session Package Template And Evidence Contract | pending | task card not yet created |
+| TASK-CLCH-LESSON-003 | Week 1-4 Lesson Package Build | pending | task card not yet created |
+| TASK-CLCH-LESSON-004 | Week 5-8 Lesson Package Build | pending | task card not yet created |
+| TASK-CLCH-LESSON-005 | Week 9-12 Lesson Package Build | pending | task card not yet created |
+| TASK-CLCH-LESSON-006 | Week 13-16 Lesson Package Build | pending | task card not yet created |
+| TASK-CLCH-ASSESS-001 | Assignments Rubrics And Translation Practice Assessment | pending | task card not yet created |
+| TASK-CLCH-AI-001 | Student AI/Vibecoding Activity Protocol | pending | task card not yet created |
+| TASK-CLCH-PROMPT-001 | NotebookLM Extraction Prompt Pack | pending | task card not yet created |
+| TASK-CLCH-REVIEW-001 | Course Delivery Review And Fail-Closed Audit | pending | task card not yet created |
 
 Only a task with an approved card and matching `TASK_STATE.json` may be executed.
 
 `TASK-LPW-GOV-002`, `TASK-LPW-GOV-003`, `TASK-LPW-GOV-004`, and `TASK-LPW-GOV-005` are completed governance tasks. `TASK-LPW-GOV-005` records the local repository path migration to `/Volumes/KIOXIA_1TB/lesson_prep_workflow` only and does not advance course content by itself.
 
-Route pointer result: `TASK-CLCH-GOV-000 | Classical Chinese Course Roadmap And Task Registry`, `TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap`, `TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course`, `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary`, `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract`, `TASK-CLCH-GOV-005 | Merge Legacy Classical Chinese Translation Route Into Formal Course Route`, `TASK-CLCH-MAT-001 | Knowledge Map Extraction`, `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix`, and `TASK-CLCH-GOV-SKILL-001 | Classical Chinese Course Agent Skill And Fail-Closed Audit` are completed, and `TASK-CLCH-LESSON-001 | 16-Week Course Architecture` is the next course task.
+Route pointer result: `TASK-CLCH-GOV-000 | Classical Chinese Course Roadmap And Task Registry`, `TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap`, `TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course`, `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary`, `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract`, `TASK-CLCH-GOV-005 | Merge Legacy Classical Chinese Translation Route Into Formal Course Route`, `TASK-CLCH-MAT-001 | Knowledge Map Extraction`, `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix`, `TASK-CLCH-GOV-SKILL-001 | Classical Chinese Course Agent Skill And Fail-Closed Audit`, and `TASK-CLCH-GOV-006 | Classical Chinese Course Downstream Task Roadmap Hardening` are completed, and `TASK-CLCH-LESSON-001 | 16-Week Course Architecture` is the next course task.
