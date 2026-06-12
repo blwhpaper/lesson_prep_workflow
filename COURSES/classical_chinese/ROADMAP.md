@@ -4,7 +4,7 @@
 
 `TASK-CLCH-GOV-000` created the governance shell. `TASK-CLCH-GOV-001` hardened the course boundary. `TASK-CLCH-GOV-002` established the cross-agent entry layer. `TASK-CLCH-GOV-003` hardened source authority and copyright boundaries. `TASK-CLCH-GOV-004` locked task routing and naming conventions. `TASK-CLCH-GOV-005` retired the duplicate standalone `classical_chinese_translation` route and quarantined it under `LEGACY_IMPORTS` so future agents see only one formal course entry.
 
-This course has not yet entered approved teaching design. Governance is complete through legacy-route retirement, and the first material-stage artifact now exists as a governed knowledge map. The next material task is the `16-session core material matrix`, not lesson prose, and downstream work must ignore `LEGACY_IMPORTS` unless a future task card explicitly authorizes audited legacy use.
+This course has not yet entered approved teaching design. Governance is complete through legacy-route retirement, and the material stage now includes both the governed knowledge map and the governed `16-session core material matrix`. The next route is `TASK-CLCH-LESSON-001 | 16-Week Course Architecture`, and downstream work must still ignore `LEGACY_IMPORTS` unless a future task card explicitly authorizes audited legacy use.
 
 ## Route
 
@@ -15,8 +15,8 @@ This course has not yet entered approved teaching design. Governance is complete
 5. `TASK-CLCH-GOV-004` | Task Routing And Naming Convention Contract | completed
 6. `TASK-CLCH-GOV-005` | Merge Legacy Classical Chinese Translation Route Into Formal Course Route | completed
 7. `TASK-CLCH-MAT-001` | Knowledge Map Extraction | completed
-8. `TASK-CLCH-MAT-002` | 16-Session Core Material Matrix | next
-9. `TASK-CLCH-LESSON-001` | 16-Week Course Architecture | planned
+8. `TASK-CLCH-MAT-002` | 16-Session Core Material Matrix | completed
+9. `TASK-CLCH-LESSON-001` | 16-Week Course Architecture | next
 10. `TASK-CLCH-LESSON-002` | Unit Template And Lesson Design Contract | planned
 11. `TASK-CLCH-PROMPT-001` | NotebookLM And Agent Prompt Pack Contract | planned
 12. `TASK-CLCH-ASSESS-001` | Assessment And Assignment Framework | planned

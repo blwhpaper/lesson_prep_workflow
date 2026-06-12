@@ -11,7 +11,7 @@
 - course format: 16 weeks, 2 class hours per week
 - course goal: build foundational Ancient Chinese competence that supports translation studies and translation practice
 - current stage: governance boundary bootstrap only
-- current stage detail: knowledge-map extraction is completed; `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix` is next
+- current stage detail: knowledge-map extraction and `16-session core material matrix` are completed; `TASK-CLCH-LESSON-001 | 16-Week Course Architecture` is next
 
 ## route_identity_rule
 
