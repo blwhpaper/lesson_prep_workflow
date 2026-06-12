@@ -6,6 +6,8 @@ This is the general lesson-preparation workflow repository. For the Classical Ch
 
 Top-level directories govern protocols, templates, cross-course reuse, and shared skills. Every course owns its own `COURSE_SOT`, `COURSE_PLAN`, `COURSE_TASK_STATE`, and `COURSE_TASK_INDEX`.
 
+For local execution on the current machine, the default repository working path is `/Volumes/KIOXIA_1TB/lesson_prep_workflow`. The previous local path `/Volumes/KIOXIA_1TB/03_COURSE_PROJECTS/lesson_prep_workflow` is retired as a historical migration source only.
+
 ## Isolation And Reuse
 
 - Course instances are isolated by default.
