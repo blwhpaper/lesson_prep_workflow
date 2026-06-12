@@ -49,3 +49,9 @@
 - Kept the old legacy governance files archived in place under `LEGACY_IMPORTS` without promoting them into top-level or formal-route source-of-truth status.
 - Updated the boundary, roadmap, registry, SoT, operator guidance, and agent-entry files to state that `LEGACY_IMPORTS/classical_chinese_translation` is isolated legacy material only.
 - Confirmed that `TASK-CLCH-GOV-000` through `TASK-CLCH-GOV-005` are completed and that the next route remains `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
+- Completed `TASK-CLCH-MAT-001` and created `COURSES/classical_chinese/MATERIALS/KNOWLEDGE_MAP.md` as the first governed knowledge-structure artifact for the Classical Chinese course line.
+- Mapped eight first-level domains: `文字`, `词汇`, `语法`, `音韵`, `文献阅读`, `翻译实践`, `工具书与训诂`, and `AI 辅助学习与提示词训练`.
+- Tagged second-level knowledge points with `learning_value`, `prerequisite`, `teaching_use`, `translation_relevance`, `ai_prompt_potential`, and `source_dependency`.
+- Separated future `16-session core material matrix` candidates from teacher-background-only reserve topics.
+- Kept explicit prohibitions against copyright excerpt-library creation, generic-culture-course drift, pure-linguistic-history drift, and AI substitution of reading or writing.
+- Advanced the course-line pointer to `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix`.
