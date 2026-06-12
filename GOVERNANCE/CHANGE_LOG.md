@@ -55,3 +55,8 @@
 - Separated future `16-session core material matrix` candidates from teacher-background-only reserve topics.
 - Kept explicit prohibitions against copyright excerpt-library creation, generic-culture-course drift, pure-linguistic-history drift, and AI substitution of reading or writing.
 - Advanced the course-line pointer to `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix`.
+- Completed `TASK-CLCH-MAT-002` and created `COURSES/classical_chinese/MATERIALS/CORE_MATERIAL_MATRIX_16_SESSIONS.md` as the session-level material allocation layer between the knowledge map and later lesson design.
+- Converted the governed knowledge map into 16 session entries with session focus, source-backed knowledge domains, core material slots, translation or research relevance, AI or NotebookLM use boundaries, maturity labels, unresolved review flags, and prohibited downstream use.
+- Kept all session slots below lesson level, preserved the `L0 -> L5` source-authority ladder, marked exact locators as `pending verification` where not yet attached, and excluded `LEGACY_IMPORTS` from use.
+- Explicitly labeled the matrix as not `lesson-ready`, not `assessment-ready`, not `publication-ready`, not a `完整教案`, not a `完整课件`, and not a `题库答案`.
+- Advanced the course-line pointer to `TASK-CLCH-LESSON-001 | 16-Week Course Architecture`.
