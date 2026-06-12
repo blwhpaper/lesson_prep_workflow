@@ -4,7 +4,7 @@
 
 `TASK-CLCH-GOV-000` created the governance shell. `TASK-CLCH-GOV-001` hardened the course boundary. `TASK-CLCH-GOV-002` established the cross-agent entry layer. `TASK-CLCH-GOV-003` hardened source authority and copyright boundaries. `TASK-CLCH-GOV-004` locked task routing and naming conventions. `TASK-CLCH-GOV-005` retired the duplicate standalone `classical_chinese_translation` route and quarantined it under `LEGACY_IMPORTS` so future agents see only one formal course entry.
 
-This course has not yet entered approved teaching design. Governance is complete through legacy-route retirement, and the material stage now includes both the governed knowledge map and the governed `16-session core material matrix`. The next route is `TASK-CLCH-LESSON-001 | 16-Week Course Architecture`, and downstream work must still ignore `LEGACY_IMPORTS` unless a future task card explicitly authorizes audited legacy use.
+This course has not yet entered approved teaching design. Governance is complete through legacy-route retirement plus the inserted fail-closed skill audit layer, and the material stage now includes both the governed knowledge map and the governed `16-session core material matrix`. The next route is `TASK-CLCH-LESSON-001 | 16-Week Course Architecture`, and downstream work must still ignore `LEGACY_IMPORTS` unless a future task card explicitly authorizes audited legacy use.
 
 ## Route
 
@@ -16,11 +16,12 @@ This course has not yet entered approved teaching design. Governance is complete
 6. `TASK-CLCH-GOV-005` | Merge Legacy Classical Chinese Translation Route Into Formal Course Route | completed
 7. `TASK-CLCH-MAT-001` | Knowledge Map Extraction | completed
 8. `TASK-CLCH-MAT-002` | 16-Session Core Material Matrix | completed
-9. `TASK-CLCH-LESSON-001` | 16-Week Course Architecture | next
-10. `TASK-CLCH-LESSON-002` | Unit Template And Lesson Design Contract | planned
-11. `TASK-CLCH-PROMPT-001` | NotebookLM And Agent Prompt Pack Contract | planned
-12. `TASK-CLCH-ASSESS-001` | Assessment And Assignment Framework | planned
-13. `TASK-CLCH-REVIEW-001` | Course Retrospective And Quality Review | planned
+9. `TASK-CLCH-GOV-SKILL-001` | Classical Chinese Course Agent Skill And Fail-Closed Audit | completed
+10. `TASK-CLCH-LESSON-001` | 16-Week Course Architecture | next
+11. `TASK-CLCH-LESSON-002` | Unit Template And Lesson Design Contract | planned
+12. `TASK-CLCH-PROMPT-001` | NotebookLM And Agent Prompt Pack Contract | planned
+13. `TASK-CLCH-ASSESS-001` | Assessment And Assignment Framework | planned
+14. `TASK-CLCH-REVIEW-001` | Course Retrospective And Quality Review | planned
 
 ## Sequencing Logic
 
@@ -31,6 +32,7 @@ This course has not yet entered approved teaching design. Governance is complete
 - `TASK-CLCH-GOV-005` removes the duplicate course entry, isolates old route files under `LEGACY_IMPORTS`, and blocks legacy material from downstream use unless a future task card authorizes audited intake
 - `TASK-CLCH-MAT-001` maps the governed knowledge terrain without pretending lesson sequencing is already settled
 - `TASK-CLCH-MAT-002` must turn that knowledge terrain into the `16-session core material matrix` before any teaching-design task can begin
+- `TASK-CLCH-GOV-SKILL-001` inserts a governed fail-closed skill audit between the matrix stage and lesson architecture so later agents must check promotion risk before design begins
 - design tasks follow only after material mapping becomes structured enough for a 16-week course architecture
 - assessment comes after architecture and activity boundaries because assignments must depend on already bounded content and method choices
 - review follows once the route has enough governed artifacts to audit
@@ -39,7 +41,7 @@ This course has not yet entered approved teaching design. Governance is complete
 
 Minimum allowed route:
 
-`governance shell -> boundary bootstrap -> cross-agent entry protocol -> source authority and copyright boundary -> task routing and naming convention contract -> legacy-route retirement and archive isolation -> knowledge map extraction -> 16-session core material matrix -> 16-week course architecture -> lesson-design contract -> prompt-pack contract when needed -> assessment and assignment framework -> review route`
+`governance shell -> boundary bootstrap -> cross-agent entry protocol -> source authority and copyright boundary -> task routing and naming convention contract -> legacy-route retirement and archive isolation -> knowledge map extraction -> 16-session core material matrix -> fail-closed skill audit -> 16-week course architecture -> lesson-design contract -> prompt-pack contract when needed -> assessment and assignment framework -> review route`
 
 ## NotebookLM Rule
 

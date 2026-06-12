@@ -41,8 +41,9 @@ Required read order for that route:
 9. `COURSES/classical_chinese/ROADMAP.md`
 10. `COURSES/classical_chinese/TASK_REGISTRY.md`
 11. the current `TASK-CLCH-*` task card
-12. the previous closeout for the same route family when it exists
-13. `git status --short --branch`
+12. `.agents/skills/classical_chinese_course_fail_closed_audit/SKILL.md` for future Classical Chinese tasks after `TASK-CLCH-GOV-SKILL-001`
+13. the previous closeout for the same route family when it exists
+14. `git status --short --branch`
 
 Required operating rules:
 
@@ -69,4 +70,5 @@ Required operating rules:
 - `COURSES/classical_chinese` is the only formal Classical Chinese course route.
 - `COURSES/classical_chinese/LEGACY_IMPORTS/classical_chinese_translation` is an isolated legacy archive only, not a course entry, and must be ignored by `TASK-CLCH-MAT-*`, `TASK-CLCH-LESSON-*`, and `TASK-CLCH-ASSESS-*` unless the active task card explicitly authorizes audited legacy use.
 - After `TASK-CLCH-GOV-005`, tasks `TASK-CLCH-GOV-000` through `TASK-CLCH-GOV-005` are completed and the next route must be `TASK-CLCH-MAT-001 | Knowledge Map Extraction`.
+- After `TASK-CLCH-GOV-SKILL-001`, future Classical Chinese tasks must read `.agents/skills/classical_chinese_course_fail_closed_audit/SKILL.md` and apply its fail-closed checklist before promoting any source-derived, lesson-stage, assessment-stage, or publication-sensitive artifact.
 - End each governed task response with the current branch, changed files, protocol or rule summary, acceptance-command results, and risks or unfinished items.
