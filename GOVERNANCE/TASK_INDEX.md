@@ -6,7 +6,7 @@
 | TASK-LPW-GOV-002 | curriculum pattern survey and architecture recommendations | completed | user-provided active-task brief; delivery: `GOVERNANCE/TASK-LPW-GOV-002_GitHub_Curriculum_Pattern_Survey_And_Architecture_Recommendations.md` |
 | TASK-LPW-GOV-003 | Architecture Hardening Patch | completed | `TASK_CARDS/TASK-LPW-GOV-003_Architecture_Hardening_Patch.md` |
 | TASK-LPW-GOV-004 | Prompt Governance And NotebookLM Intake Contract | completed | `TASK_CARDS/TASK-LPW-GOV-004_Prompt_Governance_And_NotebookLM_Intake_Contract.md`; governance patch: `GOVERNANCE/TASK-LPW-GOV-004_Prompt_Governance_And_NotebookLM_Intake_Contract.md`; closeout: `CLOSEOUTS/TASK-LPW-GOV-004_Closeout.md` |
-| TASK-LPW-GOV-005 | placeholder / needs_task_definition | not started | not created |
+| TASK-LPW-GOV-005 | Repository Local Path Migration To KIOXIA Root | completed | `TASK_CARDS/TASK-LPW-GOV-005_Repository_Local_Path_Migration_To_KIOXIA_Root.md`; closeout: `CLOSEOUTS/TASK-LPW-GOV-005_Closeout.md` |
 | TASK-LPW-GOV-006 | course expansion dry run | not started | not created |
 | TASK-CLCH-GOV-000 | Classical Chinese Course roadmap and task registry | completed | `TASK_CARDS/TASK-CLCH-GOV-000_Classical_Chinese_Course_Roadmap_And_Task_Registry.md`; governance record: `GOVERNANCE/TASK-CLCH-GOV-000_Classical_Chinese_Course_Roadmap_And_Task_Registry.md`; closeout: `CLOSEOUTS/TASK-CLCH-GOV-000_Closeout.md` |
 | TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap | completed | `TASK_CARDS/TASK-CLCH-GOV-001_Classical_Chinese_Course_Boundary_Bootstrap.md`; governance record: `GOVERNANCE/TASK-CLCH-GOV-001_Classical_Chinese_Course_Boundary_Bootstrap.md`; closeout: `CLOSEOUTS/TASK-CLCH-GOV-001_Closeout.md` |
@@ -24,6 +24,6 @@
 
 Only a task with an approved card and matching `TASK_STATE.json` may be executed.
 
-`TASK-LPW-GOV-002`, `TASK-LPW-GOV-003`, and `TASK-LPW-GOV-004` are completed governance tasks. The next task must receive its own approved authorization before execution.
+`TASK-LPW-GOV-002`, `TASK-LPW-GOV-003`, `TASK-LPW-GOV-004`, and `TASK-LPW-GOV-005` are completed governance tasks. `TASK-LPW-GOV-005` records the local repository path migration to `/Volumes/KIOXIA_1TB/lesson_prep_workflow` only and does not advance course content by itself.
 
 Route pointer result: `TASK-CLCH-GOV-000 | Classical Chinese Course Roadmap And Task Registry`, `TASK-CLCH-GOV-001 | Classical Chinese Course Boundary Bootstrap`, `TASK-CLCH-GOV-002 | Cross-Agent Entry Protocol For Classical Chinese Course`, `TASK-CLCH-GOV-003 | Classical Chinese Source Authority And Copyright Boundary`, `TASK-CLCH-GOV-004 | Task Routing And Naming Convention Contract`, `TASK-CLCH-GOV-005 | Merge Legacy Classical Chinese Translation Route Into Formal Course Route`, `TASK-CLCH-MAT-001 | Knowledge Map Extraction`, and `TASK-CLCH-MAT-002 | 16-Session Core Material Matrix` are completed, and `TASK-CLCH-LESSON-001 | 16-Week Course Architecture` is the next course task.

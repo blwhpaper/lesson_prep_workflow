@@ -43,6 +43,11 @@
 
 ## 2026-06-12
 
+- Completed `TASK-LPW-GOV-005` and recorded the local repository path migration from `/Volumes/KIOXIA_1TB/03_COURSE_PROJECTS/lesson_prep_workflow` to `/Volumes/KIOXIA_1TB/lesson_prep_workflow`.
+- Set `/Volumes/KIOXIA_1TB/lesson_prep_workflow` as the default local working path for future repository execution.
+- Added the missing repository-governance task card and closeout for `TASK-LPW-GOV-005`.
+- Verified that the git remote remains `git@github.com:blwhpaper/lesson_prep_workflow.git` and that `/Volumes/KIOXIA_1TB` is not treated as the git repository root.
+- Kept the next course pointer at `TASK-CLCH-LESSON-001 | 16-Week Course Architecture`.
 - Completed `TASK-CLCH-GOV-005` and merged the retired standalone `COURSES/classical_chinese_translation` route into `COURSES/classical_chinese/LEGACY_IMPORTS/classical_chinese_translation`.
 - Preserved all legacy files as quarantined audit-only material and added an explicit legacy README that blocks direct use in future `MAT`, `LESSON`, and `ASSESS` tasks unless a task card authorizes audited legacy use.
 - Removed the duplicate top-level course entry so `COURSES/classical_chinese` is now the only formal Classical Chinese course route in the repository.
